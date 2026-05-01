@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,notes
+,PENDING,PENDING,,,,,,,,,Fill after valuation date is locked
+,TD Power Systems,TDPOWERSYS.NS,,,,,,,,,Industrial equipment peer candidate
+,Siemens India,SIEMENS.NS,,,,,,,,,Large capital-goods benchmark; business mix differs
+,ABB India,ABB.NS,,,,,,,,,Premium industrial automation/electrification benchmark
+,CG Power,CGPOWER.NS,,,,,,,,,Capital-goods cycle peer; re-rating effects possible
+,Bharat Heavy Electricals,BHEL.NS,,,,,,,,,Power equipment context; state-owned profile differs
+,Triveni Turbine,TRITURBINE.NS,,,,,,,,,Subject company; market multiples to be locked on same valuation date
