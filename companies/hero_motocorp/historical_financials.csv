@@ -1,6 +1,3 @@
-fiscal_year,revenue_inr_cr,revenue_growth,ebit_inr_cr,ebit_margin,ebitda_inr_cr,ebitda_margin,depreciation_amortization_inr_cr,effective_tax_rate,free_cash_flow_margin,working_capital_inr_cr,cash_and_short_term_investments_inr_cr,total_debt_inr_cr,net_cash_inr_cr,shares_outstanding_cr,source_status
-FY2021,30959.2,0.0583,3389.1,0.1095,4011.0,0.1296,622.0,0.2372,0.1140,4866.0,6500.0,584.0,5915.9,19.978,Preliminary public-source data; annual report reconciliation pending
-FY2022,29551.3,-0.0455,2778.1,0.0940,3383.6,0.1145,605.5,0.2384,0.0519,5054.6,6051.3,605.2,5446.2,19.981,Preliminary public-source data; annual report reconciliation pending
-FY2023,34158.4,0.1559,3448.6,0.1010,4040.4,0.1183,591.8,0.2753,0.0588,3422.7,4035.4,567.5,3467.9,19.984,Preliminary public-source data; annual report reconciliation pending
-FY2024,37788.6,0.1063,4585.6,0.1213,5179.7,0.1371,594.1,0.2648,0.1094,3267.1,4974.3,606.4,4367.9,19.992,Preliminary public-source data; annual report reconciliation pending
-FY2025,40923.4,0.0830,5163.2,0.1262,5776.8,0.1412,613.6,0.2625,0.0841,5957.9,7187.8,699.9,6487.9,20.001,Preliminary public-source data; annual report reconciliation pending
+fiscal_year,revenue_inr_cr,revenue_growth,operating_profit_inr_cr,operating_profit_margin,dep_amort_inr_cr,pbt_inr_cr,tax_inr_cr,effective_tax_rate,pat_inr_cr,net_profit_margin,source_status
+FY2024,37788.6,,4898.8,0.1300,599.0,5090.2,1348.0,0.2650,3742.2,0.0990,Public-source annual-report analysis baseline; official annual-report line-by-line reconciliation pending
+FY2025,40923.4,0.0830,5606.8,0.1370,646.7,5933.6,1557.8,0.2630,4375.8,0.1070,Public-source annual-report analysis baseline; official annual-report line-by-line reconciliation pending
