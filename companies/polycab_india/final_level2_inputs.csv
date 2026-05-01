@@ -1,0 +1,24 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,22408.3,INR crore,FY2025 annual-report/public financial summary,Revenue baseline for model
+FY2025 EBITDA,2960.2,INR crore,FY2025 annual-report/public financial summary,Operating profit baseline
+FY2025 depreciation and amortisation,298.1,INR crore,FY2025 annual-report/public financial summary,Used for D&A/sales and EBIT bridge
+FY2025 implied EBIT,2662.1,INR crore,Calculated,EBITDA less depreciation
+FY2025 EBIT margin,11.88,percent,Calculated,Implied EBIT divided by revenue
+FY2025 PAT,2045.5,INR crore,FY2025 annual-report/public financial summary,Profit after tax baseline
+FY2025 capex,958.3,INR crore,FY2025 annual-report/public financial summary,Used for capex/sales assumption
+FY2025 capex / sales,4.28,percent,Calculated,Capex divided by revenue
+Revenue growth assumption,12.00,percent,Analyst assumption,Quality compounder growth assumption
+NWC / sales,10.00,percent,Analyst assumption,Working-capital intensity proxy for cables/electricals
+Cash and investments,3166.8,INR crore,Public balance-sheet / market-data proxy,Cash and short-term investments support
+Debt,709.6,INR crore,Public balance-sheet / market-data proxy,Debt proxy
+Net cash estimate,2457.2,INR crore,Calculated,Cash and investments less debt proxy
+Shares outstanding,15.056,crore shares,Public market-data source,Approx 150.56 million shares
+Market price,7847.00,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,117900.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,115400.0,INR crore,Public market-data proxy,Market sanity check
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.72,x,Public / analyst market-risk proxy,Quality compounder beta assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects premium valuation and execution risk
+WACC used,13.00,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for net-cash/low-debt company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
