@@ -1,0 +1,7 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,notes
+,PENDING,PENDING,,,,,,,,,Fill after valuation date is locked
+,Bajaj Auto,BAJAJ-AUTO.NS,,,,,,,,,Peer candidate; export and margin mix differs
+,TVS Motor,TVSMOTOR.NS,,,,,,,,,Peer candidate; EV and growth profile differs
+,Eicher Motors,EICHERMOT.NS,,,,,,,,,Premium motorcycle peer; not mass-market comparable
+,Maruti Suzuki,MARUTI.NS,,,,,,,,,Auto-cycle context only; four-wheeler model differs
+,Hero MotoCorp,HEROMOTOCO.NS,,,,,,,,,Subject company; market multiples to be locked on same valuation date
