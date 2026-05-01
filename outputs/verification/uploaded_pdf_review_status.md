@@ -10,7 +10,8 @@ This file records the status of the annual-report PDFs uploaded manually for the
 |---|---|---|---|---|
 | Triveni Turbine | Annual-Report-2024-25.pdf | Received and readable | Usable for FY2024-25 page mapping | Annual Report 2024-25 confirmed from cover and contents |
 | Polycab India | Polycab_IAR_2025.pdf | Received and readable | Usable for FY2024-25 page mapping | Integrated Annual Report 2024-25 confirmed from cover and contents |
-| JB Chemicals and Pharmaceuticals | JB-Pharma-Annual-Report-Final-File.pdf | Received twice and readable | Not usable for FY2024-25 mapping | Uploaded file is Annual Report 2023-24, not FY2024-25 |
+| JB Chemicals and Pharmaceuticals | FY25-Annual-Report.pdf | Received and readable | Usable for FY2024-25 page mapping | Annual Report 2024-25 confirmed from cover, contents and Directors' Report |
+| JB Chemicals and Pharmaceuticals | JB-Pharma-Annual-Report-Final-File.pdf | Previously received twice and readable | Not usable for FY2024-25 mapping | Earlier uploaded file was Annual Report 2023-24, not FY2024-25 |
 
 ## Key Verification Notes
 
@@ -24,21 +25,22 @@ The uploaded Polycab file is an Integrated Annual Report 2024-25 and is suitable
 
 ### JB Chemicals and Pharmaceuticals
 
-The uploaded JB Pharma file has now been uploaded twice, but both uploads are Annual Report 2023-24. It contains financial statements for the year ended March 31, 2024, so it should not be used to verify the FY2024-25 values in the Level 2 model. A FY2024-25 annual report is still required for final SSRN page-level mapping.
+The correct FY2024-25 JB Pharma annual report has now been uploaded as `FY25-Annual-Report.pdf`. The report cover confirms Annual Report 2024-25 and the Directors' Report states the financial statements are for the financial year ended March 31, 2025. This file is suitable for FY2024-25 page-level mapping.
 
 ## Current Status
 
 ```text
 Triveni Turbine FY2024-25 PDF: Received
 Polycab India FY2024-25 PDF: Received
-JB Chemicals FY2024-25 PDF: Still required
+JB Chemicals FY2024-25 PDF: Received
+Previously incorrect JB FY2023-24 PDF: Superseded
 ```
 
 ## Next Action
 
-1. Use uploaded Triveni and Polycab PDFs for page-level source mapping.
-2. Request/upload the correct JB Chemicals and Pharmaceuticals FY2024-25 annual report.
-3. Continue page-level reconciliation after all PDFs are available.
+1. Use uploaded Triveni, Polycab and JB Pharma FY2024-25 PDFs for page-level source mapping.
+2. Fill the page-level mapping table for these three formerly missing companies.
+3. Continue final reconciliation for all 12 companies.
 
 ## Research Boundary
 
