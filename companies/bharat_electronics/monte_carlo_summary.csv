@@ -1,0 +1,13 @@
+metric,value,notes
+Simulations used,10000,Level 2 draft simulation count
+Mean fair value per share,98.47,Average simulated value using defence electronics public-source inputs
+Median fair value per share,96.96,Central simulated value
+5th percentile fair value per share,77.90,Severe downside valuation estimate
+25th percentile fair value per share,88.46,Conservative valuation estimate
+75th percentile fair value per share,106.88,Upside valuation estimate
+95th percentile fair value per share,123.92,Strong upside valuation estimate
+Market price used,450.15,Delayed public market price proxy used for comparison
+Probability value above market price,0.00%,Share of simulations above market price
+Probability value below market price,100.00%,Share of simulations below market price
+Median margin of safety,-78.46%,Median simulated value divided by market price minus one
+Simulation status,Level 2 final draft,Uses defence electronics/order-book assumptions; not investment advice
