@@ -1,0 +1,13 @@
+company,ticker,market_data_date,share_price,market_cap_inr_cr,enterprise_value_inr_cr,shares_outstanding_cr,beta,risk_free_rate,source_price,source_market_cap,source_ev,source_beta,source_risk_free_rate,refresh_status,next_action
+Hero MotoCorp,HEROMOTOCO.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Fiem Industries,FIEMIND.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Triveni Turbine,TRITURBINE.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+NALCO,NATIONALUM.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Sharda Cropchem,SHARDACROP.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Time Technoplast,TIMETECHNO.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Bharat Electronics,BEL.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Polycab India,POLYCAB.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+SJS Enterprises,SJS.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Shilchar Technologies,SHILCTECH.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
+Gravita India,GRAVITA.NS,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Pending,Refresh all market inputs using one common date
