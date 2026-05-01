@@ -1,0 +1,27 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,3918.0,INR crore,FY2025 public-source annual-report / company results baseline,Revenue baseline for model
+FY2025 operating EBITDA,1087.0,INR crore,FY2025 public-source company results baseline,Operating EBITDA baseline
+FY2025 operating EBITDA margin,27.70,percent,FY2025 public-source company results baseline,Stable pharma margin baseline
+FY2025 depreciation and amortisation,171.04,INR crore,FY2025 public-source financial statement proxy,Used for D&A/sales and EBIT bridge
+FY2025 implied EBIT,915.96,INR crore,Calculated,Operating EBITDA less depreciation
+FY2025 implied EBIT margin,23.38,percent,Calculated,Implied EBIT divided by revenue
+FY2025 PAT,660.0,INR crore,FY2025 public-source company results baseline,Profit after tax baseline
+FY2025 ROCE,32.00,percent,Public-source company results commentary,Return profile baseline
+Revenue growth assumption,10.00,percent,Analyst assumption,Stable pharma and branded formulations growth assumption
+Tax rate,25.70,percent,Calculated / normalized assumption,PAT and EBIT-based tax proxy
+Depreciation / sales,4.37,percent,Calculated,D&A divided by revenue baseline
+Capex / sales,5.00,percent,Analyst assumption,Maintenance and growth reinvestment proxy
+NWC / sales,10.00,percent,Analyst assumption,Pharma working-capital proxy
+Cash and investments,689.0,INR crore,Public-source results commentary,Net cash balance proxy
+Debt,136.0,INR crore,Public-market / balance-sheet proxy,Debt proxy for WACC file only
+Net cash estimate,553.0,INR crore,Calculated / analyst proxy,Cash and investments less debt proxy; refine in SSRN appendix
+Shares outstanding,16.056,crore shares,Public market-data / implied share-count proxy,Approx 160.56 million shares
+Market price,2121.80,INR/share,Public delayed market price around Mar 2026,Used for probability comparison
+Market capitalization,34070.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,33517.0,INR crore,Calculated proxy,Market capitalization less net cash estimate
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.74,x,Analyst market-risk proxy,Defensive pharma risk assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,0.75,percent,Analyst assumption,Reflects regulatory/product and premium valuation risk
+WACC used,12.50,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for low-debt defensive pharma company
+Terminal growth,4.50,percent,Analyst assumption,Conservative long-term nominal growth for stable pharma
