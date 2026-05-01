@@ -1,0 +1,9 @@
+sensitivity_area,base_case,downside_case,upside_case,valuation_relevance,status
+Revenue growth,8.0%,2.0%,14.0%,Affects explicit FCFF and terminal scale,Level 2 draft
+Normalized EBIT margin,10.0%,6.0%,14.0%,Major driver of agrochemical margin recovery valuation,Level 2 draft
+Tax rate,19.5%,25.0%,18.0%,Affects NOPAT and FCFF,Level 2 draft
+Depreciation / sales,6.36%,7.0%,5.5%,Affects FCFF add-back and EBIT bridge,Level 2 draft
+Capex / sales,9.0%,12.0%,6.0%,Higher capex or registration spend reduces FCFF,Level 2 draft
+NWC / sales,18.0%,25.0%,12.0%,Higher receivables/inventory intensity reduces FCFF,Level 2 draft
+WACC,14.5%,15.7%,13.3%,Major driver of present value and terminal value,Level 2 draft
+Terminal growth,4.0%,2.5%,4.5%,Major driver of terminal value but kept conservative,Level 2 draft
