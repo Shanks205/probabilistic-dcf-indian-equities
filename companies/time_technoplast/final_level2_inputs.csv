@@ -1,0 +1,25 @@
+input_item,value,unit,source_status,notes
+FY2025 consolidated revenue from operations,5457.04,INR crore,Public FY2025 annual-report summary,Operating baseline for model
+FY2025 EBITDA,790.23,INR crore,Public FY2025 annual-report summary,Operating profit baseline
+FY2025 finance cost,146.30,INR crore,Public FY2025 annual-report summary,Used for debt-cost sanity check
+FY2025 depreciation,169.67,INR crore,Public FY2025 annual-report summary,Used for D&A/sales
+FY2025 PBT,474.26,INR crore,Public FY2025 annual-report summary,Profit before tax baseline
+FY2025 tax expense,120.68,INR crore,Public FY2025 annual-report summary,Tax baseline
+FY2025 PAT,351.46,INR crore,Public FY2025 annual-report summary,Profit after tax baseline
+FY2025 effective tax rate,25.44,percent,Calculated,Tax expense divided by PBT
+FY2025 implied EBIT,620.56,INR crore,Calculated,EBITDA less depreciation
+FY2025 EBIT margin,11.37,percent,Calculated,Implied EBIT divided by revenue
+Revenue growth assumption,8.00,percent,Analyst assumption,Industrial packaging and value-added product growth assumption
+Capex / sales,3.58,percent,Analyst assumption / public capex proxy,Approx normalized reinvestment intensity
+NWC / sales,12.00,percent,Analyst assumption,Industrial packaging working-capital sensitivity
+Net debt estimate,568.00,INR crore,Market-data EV less market-cap proxy,Debt and cash schedule to be refined in SSRN appendix
+Shares outstanding,49.364,crore shares,Public market-data source,Approx 493.64 million shares
+Market price,193.01,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,9528.0,INR crore,Public market-data source,Market sanity check
+Enterprise value,10096.0,INR crore,Public market-data source,Market sanity check
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.86,x,Public / analyst market-risk proxy,Industrial packaging midcap risk assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects raw-material working-capital and midcap risk
+WACC used,14.00,percent,Calculated / rounded model assumption,Cost-of-equity style WACC with debt sanity check
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
