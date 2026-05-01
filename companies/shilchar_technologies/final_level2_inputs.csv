@@ -1,0 +1,28 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,623.15,INR crore,FY2025 annual-report/public financial summary,Revenue baseline for model
+FY2025 EBITDA,184.75,INR crore,FY2025 annual-report/public financial summary,Operating profit baseline
+FY2025 EBITDA margin,29.60,percent,FY2025 annual-report/public financial summary,High-margin transformer manufacturing baseline
+FY2025 depreciation and amortisation,3.41,INR crore,FY2025 annual-report/public financial summary,Used for D&A/sales and EBIT bridge
+FY2025 implied EBIT,181.34,INR crore,Calculated,EBITDA less depreciation
+FY2025 implied EBIT margin,29.10,percent,Calculated,Implied EBIT divided by revenue
+FY2025 PAT,146.85,INR crore,FY2025 annual-report/public financial summary,Profit after tax baseline
+FY2025 ROCE,56.00,percent,FY2025 annual-report/public financial summary,High-ROCE industrial growth characteristic
+FY2025 ROE,42.00,percent,FY2025 annual-report/public financial summary,Return profile baseline
+Revenue growth assumption,18.00,percent,Analyst assumption,Transformer demand and power capex cycle growth assumption
+Tax rate,25.60,percent,Public FY2025 effective tax proxy,Used for FCFF model
+Depreciation / sales,0.55,percent,Calculated / analyst assumption,D&A divided by revenue baseline
+Capex / sales,6.00,percent,Analyst assumption,Capacity expansion and maintenance reinvestment proxy
+NWC / sales,18.00,percent,Analyst assumption,Receivables and inventory intensity proxy for industrial order execution
+Cash and investments,100.0,INR crore,Public-market / balance-sheet proxy,Approx cash support; refine in SSRN appendix
+Debt,9.4,INR crore,Public-market / balance-sheet proxy,Debt proxy
+Net cash estimate,90.6,INR crore,Calculated,Cash and investments less debt proxy
+Shares outstanding,1.144,crore shares,Public market-data / implied market-cap proxy,Approx 11.44 million shares
+Market price,4774.30,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,5478.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,5387.4,INR crore,Calculated proxy,Market capitalization less net cash estimate
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.93,x,Analyst market-risk proxy,Industrial growth / midcap risk assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.50,percent,Analyst assumption,Reflects midcap, execution, order-cycle and valuation risk
+WACC used,15.00,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for low-debt/midcap growth company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
