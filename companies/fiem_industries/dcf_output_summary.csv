@@ -1,7 +1,9 @@
 metric,value_inr_cr_or_per_share,notes
-PV of explicit FCFF,641.18,Present value of five-year forecast FCFF
-Terminal value,2207.99,Undiscounted Gordon-growth terminal value
-PV of terminal value,1091.58,Discounted terminal value
-Enterprise value,1732.76,PV of explicit FCFF plus PV of terminal value
-Equity value,2008.96,Enterprise value less net debt; net cash increases equity value
-Fair value per share,76.33,Preliminary model output using placeholder assumptions; not a target price
+PV of explicit FCFF,502.10,Present value of five-year FCFF using final Level 2 draft public-source inputs
+Terminal value,1729.05,Undiscounted Gordon-growth terminal value
+PV of terminal value,854.80,Discounted terminal value
+Enterprise value,1356.90,PV of explicit FCFF plus PV of terminal value
+Equity value,1633.10,Enterprise value plus net cash estimate
+Fair value per share,620.48,Final Level 2 draft model output; not a target price
+Market price used,2224.90,StockAnalysis delayed price around Apr 16 2026
+Deterministic value vs market price,-72.11%,Deterministic fair value divided by market price minus one
