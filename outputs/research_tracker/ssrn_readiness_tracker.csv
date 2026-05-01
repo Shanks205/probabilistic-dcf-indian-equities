@@ -1,5 +1,5 @@
 company,annual_report_mapping,market_data_refresh,peer_table_refresh,chart_output,academic_rewrite,ssrn_ready_status,next_action
-Hero MotoCorp,Pending,Pending,Pending,Pending,Pending,Not ready,Map annual-report inputs and refresh market data
+Hero MotoCorp,Partial,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
 Fiem Industries,Pending,Pending,Pending,Pending,Pending,Not ready,Map annual-report inputs and refresh market data
 Triveni Turbine,Pending,Pending,Pending,Pending,Pending,Not ready,Map annual-report inputs and refresh market data
 NALCO,Pending,Pending,Pending,Pending,Pending,Not ready,Map annual-report inputs and refresh market data
