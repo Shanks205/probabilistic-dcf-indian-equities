@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,dividend_yield,notes
+,PENDING,PENDING,,,,,,,,,,Fill after valuation date is locked
+,Hindalco Industries,HINDALCO.NS,,,,,,,,,,Large diversified aluminium and metals peer
+,Vedanta,VEDL.NS,,,,,,,,,,Diversified metals and mining peer; leverage and conglomerate effects matter
+,Hindustan Zinc,HINDZINC.NS,,,,,,,,,,High-margin zinc/silver peer; different commodity economics
+,MOIL,MOIL.NS,,,,,,,,,,Mining PSU reference; commodity differs
+,Steel Authority of India,SAIL.NS,,,,,,,,,,PSU cyclical metals reference; steel economics differ
+,NALCO,NATIONALUM.NS,,,,,,,,,,Subject company; market multiples to be locked on same valuation date
