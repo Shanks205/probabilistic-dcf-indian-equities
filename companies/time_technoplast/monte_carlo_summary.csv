@@ -1,0 +1,13 @@
+metric,value,notes
+Simulations used,10000,Level 2 draft simulation count
+Mean fair value per share,83.71,Average simulated value using industrial packaging public-source inputs
+Median fair value per share,82.03,Central simulated value
+5th percentile fair value per share,54.87,Severe downside valuation estimate
+25th percentile fair value per share,70.07,Conservative valuation estimate
+75th percentile fair value per share,95.55,Upside valuation estimate
+95th percentile fair value per share,118.09,Strong upside valuation estimate
+Market price used,193.01,Delayed public market price proxy used for comparison
+Probability value above market price,0.02%,Share of simulations above market price
+Probability value below market price,99.98%,Share of simulations below market price
+Median margin of safety,-57.50%,Median simulated value divided by market price minus one
+Simulation status,Level 2 final draft,Uses industrial packaging / working-capital-sensitive assumptions; not investment advice
