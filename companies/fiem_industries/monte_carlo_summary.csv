@@ -1,9 +1,13 @@
 metric,value,notes
-Simulations used,10000,Preliminary simulation count
-Mean fair value per share,74.62,Average simulated value
-Median fair value per share,73.75,Central simulated value
-5th percentile fair value per share,56.30,Severe downside valuation estimate
-25th percentile fair value per share,66.15,Conservative valuation estimate
-75th percentile fair value per share,82.10,Upside valuation estimate
-95th percentile fair value per share,95.90,Strong upside valuation estimate
-Simulation status,Preliminary,Uses public-source baseline and placeholder assumption ranges
+Simulations used,10000,Final Level 2 draft simulation count
+Mean fair value per share,622.38,Average simulated value using final Level 2 draft public-source inputs
+Median fair value per share,614.74,Central simulated value
+5th percentile fair value per share,419.69,Severe downside valuation estimate
+25th percentile fair value per share,530.33,Conservative valuation estimate
+75th percentile fair value per share,705.37,Upside valuation estimate
+95th percentile fair value per share,850.80,Strong upside valuation estimate
+Market price used,2224.90,StockAnalysis delayed price around Apr 16 2026
+Probability value above market price,0.00%,Share of simulations above market price
+Probability value below market price,100.00%,Share of simulations below market price
+Median margin of safety,-72.37%,Median simulated value divided by market price minus one
+Simulation status,Final Level 2 draft,Still not investment advice; formal citation appendix can be improved during SSRN drafting
