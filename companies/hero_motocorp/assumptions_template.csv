@@ -1,0 +1,12 @@
+variable,base_case,bear_case,bull_case,distribution_type,notes
+starting_revenue,46300,,,fixed,Placeholder based on previous framework FY26E revenue in INR crore; verify later
+revenue_growth,0.08,0.04,0.12,triangular,Initial placeholder range for mature auto recovery
+EBIT_margin,0.12,0.10,0.14,triangular,Initial placeholder operating margin range; verify with audited data
+Tax_rate,0.25,0.23,0.27,triangular,Normalized tax rate placeholder
+Depreciation_sales,0.025,0.020,0.030,triangular,Placeholder depreciation as percentage of sales
+Capex_sales,0.035,0.025,0.045,triangular,Placeholder capex intensity
+NWC_sales,0.08,0.06,0.10,triangular,Placeholder net working capital intensity
+WACC,0.1258,0.1158,0.1358,normal,Placeholder from previous framework; beta regression refinement pending
+Terminal_growth,0.04,0.03,0.05,uniform,Conservative long-term growth range
+Net_debt,-3000,,,fixed,Placeholder net cash assumption; verify later
+Shares_outstanding,20,,,fixed,Placeholder shares in crore; verify later
