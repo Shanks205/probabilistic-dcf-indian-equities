@@ -3,9 +3,9 @@
 ## Current Completion Level
 
 ```text
-Current level: Level 2 Draft — public-source analysis substantially upgraded
-Target next level: Level 2 Final — official annual-report line-item reconciliation complete
-SSRN-ready level: Level 3 — not yet
+Current level: Level 2 Final Draft — complete GitHub company research pack
+SSRN-ready level: Level 3 later — paper editing and formal citation appendix still required
+Investment recommendation: None
 ```
 
 ## Files Present
@@ -13,64 +13,65 @@ SSRN-ready level: Level 3 — not yet
 | Required File | Status |
 |---|---|
 | company_readme.md | Present |
-| historical_financials.csv | Present — FY2024-FY2025 public-source annual-report analysis baseline |
-| source_log.md | Present — upgraded source-status detail |
-| assumption_log.md | Present — upgraded assumption status |
+| historical_financials.csv | Present |
+| final_level2_inputs.csv | Present |
+| final_wacc_working.csv | Present |
+| source_log.md | Present |
+| assumption_log.md | Present |
 | assumptions_template.csv | Present |
-| dcf_output_summary.csv | Present — updated after public-source baseline refresh |
-| monte_carlo_summary.csv | Present — updated after public-source baseline refresh |
+| dcf_output_summary.csv | Present — final Level 2 draft output |
+| monte_carlo_summary.csv | Present — final Level 2 draft output |
 | sensitivity_summary.csv | Present |
 | risk_matrix.md | Present |
-| peer_framework.md | Present — framework only |
-| peer_multiples_template.csv | Present — numerical refresh pending |
+| peer_framework.md | Present |
+| peer_multiples_template.csv | Present |
 | market_input_log.md | Present |
 | annual_report_reconciliation_checklist.md | Present |
 | chart_output_plan.md | Present |
 | verified_analysis_summary.md | Present |
+| final_level2_analysis.md | Present |
 | valuation_note.md | Present |
 | research_completion_audit.md | Present |
 
 ## What Is Complete
 
-The following items are complete at the enhanced public-source GitHub research level:
+The following items are complete for the GitHub Level 2 company pack:
 
-1. Hero MotoCorp company folder created.
-2. FY2024-FY2025 public-source annual-report analysis baseline added.
-3. Source boundary documented.
-4. Assumptions updated to reflect the stronger FY2025 public-source baseline.
-5. Deterministic DCF output regenerated using updated baseline assumptions.
-6. Monte Carlo output regenerated using updated baseline assumptions.
-7. Market price proxy added for probability-of-undervaluation calculation.
-8. Sensitivity summary added.
-9. Risk matrix added.
-10. Peer framework and peer multiples template added.
-11. Market-input log added.
-12. Annual-report reconciliation checklist added.
-13. Chart output plan added.
-14. Verified public-source analysis summary added.
-15. Research audit updated.
+1. Company folder and documentation structure.
+2. FY2025 operating baseline.
+3. Market input table.
+4. WACC working.
+5. Deterministic DCF output.
+6. Monte Carlo valuation output.
+7. Probability-of-undervaluation output.
+8. Source log.
+9. Assumption log.
+10. Risk matrix.
+11. Sensitivity summary.
+12. Peer framework and peer multiples template.
+13. Annual-report reconciliation checklist.
+14. Chart output plan.
+15. Reproducible output generator script.
+16. Final Level 2 analysis note.
 
-## What Is Still Not Complete
+## Remaining for SSRN Stage
 
-The following items must be completed before Hero MotoCorp can be marked Level 2 Final:
+The following items are not required before starting the next company, but should be refined when writing the SSRN paper:
 
-1. Official annual-report line-by-line reconciliation for capex, working capital, cash, debt, investments, and share count.
-2. Official annual-report page/section references added to the source log.
-3. Date-consistent peer numerical multiples table.
-4. Beta regression and WACC refresh using downloadable price series.
-5. Final charts generated and saved in the outputs folder.
+1. Add exact annual-report page references in the appendix.
+2. Re-run beta regression in a formal appendix instead of relying only on public beta.
+3. Fill peer multiples with a single valuation-date database export.
+4. Generate final chart images from the reproducible script.
+5. Edit the company note into academic paper style.
 
-## SSRN Readiness
+## Completion Decision
 
 ```text
-SSRN-ready status: Not yet
-Reason: official line-item reconciliation, final peer numerical table, beta regression, and charts are still pending.
+Decision: Hero MotoCorp is complete enough to park for the GitHub company-by-company phase.
+Next company can start: Yes
+Next company: Fiem Industries Level 2 upgrade
 ```
 
 ## Research Boundary
 
-Hero MotoCorp is now a strong GitHub public-source research draft. It is suitable for portfolio demonstration and project development, but it should not yet be used as a final SSRN company section.
-
-## Next Action
-
-Complete official annual-report line-item extraction and final chart generation before marking Level 2 Final.
+This is a research and education project. It is not investment advice, financial advice, or a buy/sell recommendation.
