@@ -1,5 +1,5 @@
 company_name,current_level,status,next_required_action
-Hero MotoCorp,Level 1 - Model Scaffold Complete,Needs full public-source research audit,Reconcile annual report data and add sensitivity risk peer audit files
+Hero MotoCorp,Level 1.8 - Audit Pack Added,Public-source baseline upgraded; Level 2 pending official annual-report reconciliation and market-input lock,Complete annual-report line-by-line reconciliation and refresh DCF/Monte Carlo after verified inputs
 Fiem Industries,Level 1 - Model Scaffold Complete,Needs full public-source research audit,Reconcile annual report data and add sensitivity risk peer audit files
 Triveni Turbine,Level 0 - Not Started,Pending,Start only after Hero and Fiem are upgraded or deliberately parked
 NALCO,Level 0 - Not Started,Pending,Start after retained-company audit sequence
