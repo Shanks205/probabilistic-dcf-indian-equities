@@ -1,0 +1,12 @@
+wacc_component,value,unit,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy
+Beta,0.74,x,Analyst market-risk proxy for defensive pharma company
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate
+Company-specific risk premium,0.75,percent,Reflects regulatory/product, acquisition integration and premium valuation risk
+Pre-tax cost of debt,8.00,percent,Illustrative cost of debt proxy; debt contribution is small
+Tax rate,25.70,percent,Normalized tax assumption
+After-tax cost of debt,5.94,percent,Pre-tax cost of debt multiplied by one minus tax rate
+Cost of equity,12.91,percent,Risk-free rate plus beta times ERP plus CSRP
+Debt weight,2.00,percent,Low-debt capital structure proxy
+Equity weight,98.00,percent,Market-value equity dominated capital structure proxy
+Rounded WACC used,12.50,percent,Cost-of-equity style WACC for low-debt defensive pharma company
