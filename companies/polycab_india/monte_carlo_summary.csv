@@ -1,0 +1,13 @@
+metric,value,notes
+Simulations used,10000,Level 2 draft simulation count
+Mean fair value per share,1276.88,Average simulated value using cables/electricals public-source inputs
+Median fair value per share,1260.17,Central simulated value
+5th percentile fair value per share,897.37,Severe downside valuation estimate
+25th percentile fair value per share,1102.23,Conservative valuation estimate
+75th percentile fair value per share,1431.22,Upside valuation estimate
+95th percentile fair value per share,1713.89,Strong upside valuation estimate
+Market price used,7847.00,Delayed public market price proxy used for comparison
+Probability value above market price,0.00%,Share of simulations above market price
+Probability value below market price,100.00%,Share of simulations below market price
+Median margin of safety,-83.94%,Median simulated value divided by market price minus one
+Simulation status,Level 2 final draft,Uses quality-compounder cables/electricals assumptions; not investment advice
