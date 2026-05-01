@@ -1,0 +1,4 @@
+peer_company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_sales,ev_ebitda,pe,pb,roce,roe,notes
+TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,To be populated during SSRN-stage peer refresh
+TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Use consistent data date across all peers
+TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,Include branded formulation and defensive pharma comparables
