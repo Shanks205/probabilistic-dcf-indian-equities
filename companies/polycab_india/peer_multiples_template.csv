@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,fcf_yield,notes
+,PENDING,PENDING,,,,,,,,,,Fill after valuation date is locked
+,KEI Industries,KEI.NS,,,,,,,,,,Closest wires/cables peer candidate
+,RR Kabel,RRKABEL.NS,,,,,,,,,,Wires/cables and FMEG peer candidate
+,Havells India,HAVELLS.NS,,,,,,,,,,Electricals/FMEG benchmark; brand mix differs
+,Finolex Cables,FINCABLES.NS,,,,,,,,,,Mature cable peer candidate
+,V-Guard Industries,VGUARD.NS,,,,,,,,,,Consumer electricals reference; product mix differs
+,Polycab India,POLYCAB.NS,,,,,,,,,,Subject company; market multiples to be locked on same valuation date
