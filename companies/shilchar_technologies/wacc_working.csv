@@ -1,0 +1,12 @@
+wacc_component,value,unit,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy
+Beta,0.93,x,Analyst market-risk proxy for industrial growth / midcap transformer business
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate
+Company-specific risk premium,1.50,percent,Reflects midcap size, execution, order-cycle and premium valuation risk
+Pre-tax cost of debt,8.50,percent,Illustrative cost of debt proxy; debt contribution is small
+Tax rate,25.60,percent,FY2025 effective tax proxy / normalized corporate tax assumption
+After-tax cost of debt,6.32,percent,Pre-tax cost of debt multiplied by one minus tax rate
+Cost of equity,14.99,percent,Risk-free rate plus beta times ERP plus CSRP
+Debt weight,1.00,percent,Low-debt capital structure proxy
+Equity weight,99.00,percent,Market-value equity dominated capital structure proxy
+Rounded WACC used,15.00,percent,Cost-of-equity style WACC for low-debt midcap growth company
