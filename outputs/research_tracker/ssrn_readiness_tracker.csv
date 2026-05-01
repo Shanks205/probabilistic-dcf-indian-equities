@@ -1,13 +1,13 @@
 company,annual_report_mapping,market_data_refresh,peer_table_refresh,chart_output,academic_rewrite,ssrn_ready_status,next_action
 Hero MotoCorp,Partial,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
 Fiem Industries,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Triveni Turbine,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
+Triveni Turbine,Partial,Pending,Pending,Pending,Pending,Not ready,Complete note-level cash debt capex and working-capital mapping; then refresh market data
 NALCO,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
 Sharda Cropchem,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
 Time Technoplast,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
 Bharat Electronics,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Polycab India,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
+Polycab India,Substantially mapped,Pending,Pending,Pending,Pending,Not ready,Finalize net-cash bridge definition; then refresh market data
 SJS Enterprises,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
 Shilchar Technologies,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-JB Chemicals and Pharmaceuticals,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
+JB Chemicals and Pharmaceuticals,Substantially mapped,Pending,Pending,Pending,Pending,Not ready,Recalculate annual-report cash investments minus borrowings bridge; then refresh market data
 Gravita India,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
