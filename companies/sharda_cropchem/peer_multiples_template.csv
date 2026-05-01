@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,fcf_yield,notes
+,PENDING,PENDING,,,,,,,,,,Fill after valuation date is locked
+,UPL,UPL.NS,,,,,,,,,,Global agrochemical benchmark; leverage and scale differ
+,PI Industries,PIIND.NS,,,,,,,,,,High-quality agrochemical/CSM benchmark; model differs
+,Rallis India,RALLIS.NS,,,,,,,,,,Crop-protection peer candidate
+,Dhanuka Agritech,DHANUKA.NS,,,,,,,,,,Domestic formulation peer candidate
+,Sumitomo Chemical India,SUMICHEM.NS,,,,,,,,,,Large agrochemical peer; parentage and portfolio differ
+,Sharda Cropchem,SHARDACROP.NS,,,,,,,,,,Subject company; market multiples to be locked on same valuation date
