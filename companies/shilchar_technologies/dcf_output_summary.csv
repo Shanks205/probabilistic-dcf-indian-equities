@@ -1,0 +1,9 @@
+metric,value_inr_cr_or_per_share,notes
+PV of explicit FCFF,453.07,Present value of five-year FCFF using Level 2 draft public-source inputs
+Terminal value,1813.02,Undiscounted Gordon-growth terminal value
+PV of terminal value,901.39,Discounted terminal value
+Enterprise value,1354.46,PV of explicit FCFF plus PV of terminal value
+Equity value,1445.06,Enterprise value plus net cash estimate
+Fair value per share,1263.16,Level 2 draft model output; not a target price
+Market price used,4774.30,Delayed public market price proxy used for comparison
+Deterministic value vs market price,-73.54%,Deterministic fair value divided by market price minus one
