@@ -1,0 +1,12 @@
+component,value,unit,formula_or_source,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Valuation-date market input proxy
+Beta,0.68,x,Public / analyst market-risk proxy,Used for quality defence electronics PSU risk profile
+Equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Documented assumption for India equity risk
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects order execution government-customer and premium valuation risk
+Cost of equity,12.74,percent,Rf + beta * ERP + CSRP,6.98% + 0.68*7.00% + 1.00%
+Pre-tax cost of debt,0.00,percent,Debt-light / net-cash approximation,Debt not material
+Effective tax rate,25.50,percent,Normalized tax assumption,Used for FCFF model
+After-tax cost of debt,0.00,percent,Not meaningful for net-cash company,Debt not material
+Equity weight,100.00,percent,Net-cash company approximation,WACC approximated to cost of equity
+Debt weight,0.00,percent,Net-cash company approximation,Debt not material
+WACC used,12.75,percent,Rounded model WACC,Used in Level 2 draft valuation
