@@ -1,0 +1,24 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,23768.8,INR crore,Public FY2025 annual-report / financial-summary baseline,Operating baseline for model
+FY2025 operating profit / EBITDA proxy,6681.9,INR crore,Public FY2025 financial-summary baseline,Operating profit before depreciation proxy
+FY2025 depreciation and amortisation,467.4,INR crore,Public FY2025 financial-summary baseline,Used for D&A/sales and EBIT bridge
+FY2025 implied EBIT,6214.5,INR crore,Calculated,Operating profit proxy less depreciation
+FY2025 EBIT margin,26.14,percent,Calculated,Implied EBIT divided by revenue
+FY2025 PBT,8000.0,INR crore,Public FY2025 results proxy,Approx public result baseline; formal page references later
+FY2025 tax rate,25.50,percent,Analyst/public-source normalized tax assumption,Used for FCFF model
+Revenue growth assumption,12.00,percent,Analyst assumption,Defence electronics/order-book growth assumption
+Capex / sales,3.00,percent,Analyst assumption,Defence electronics reinvestment proxy
+NWC / sales,15.00,percent,Analyst assumption,Government/customer receivable and inventory working-capital sensitivity
+Cash and investments,8000.0,INR crore,Public-market / balance-sheet proxy,Approx net-cash support; exact cash schedule for SSRN appendix
+Debt,0.0,INR crore,Public-market / balance-sheet proxy,Debt-light / net-cash assumption
+Net cash estimate,8000.0,INR crore,Calculated,Cash and investments less debt proxy
+Shares outstanding,731.0,crore shares,Public market-data source,Approx 7.31 billion shares
+Market price,450.15,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,329000.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,321000.0,INR crore,Calculated proxy,Market cap less net cash proxy
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.68,x,Public / analyst market-risk proxy,Defence PSU quality beta assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects order execution government-customer and premium-valuation risk
+WACC used,12.75,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for net-cash company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
