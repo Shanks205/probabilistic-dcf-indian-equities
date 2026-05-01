@@ -1,0 +1,22 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,40923.4,INR crore,Official annual report / public annual-report analysis cross-check,Net sales / operating income baseline
+FY2025 total income,41967.50,INR crore,Official annual report snippet,Consolidated total income
+FY2025 profit before finance cost and depreciation,6989.92,INR crore,Official annual report snippet,Used as EBITDA-style operating profit baseline
+FY2025 depreciation and amortisation,824.59,INR crore,Official annual report snippet,Used for EBIT proxy and D&A/sales
+FY2025 finance cost,70.65,INR crore,Official annual report snippet,Used for debt-cost sanity check
+FY2025 PBT,5933.56,INR crore,Official annual report snippet,Consolidated PBT
+FY2025 tax expense,1557.75,INR crore,Official annual report snippet,Current tax plus deferred tax
+FY2025 implied PAT,4375.81,INR crore,Calculated from PBT minus tax,Cross-checks public annual-report analysis PAT
+FY2025 cash and short-term investments,10795.0,INR crore,Public market-data balance-sheet source,Needs official annual-report reconciliation for exact components
+FY2025 debt,718.0,INR crore,Public market-data balance-sheet source,Needs official annual-report reconciliation for exact components
+Net cash estimate,10077.0,INR crore,Calculated,Cash and short-term investments minus debt
+Shares outstanding,20.009,crore shares,Public market-data source,Equivalent to 200.09 million shares
+Market price,5111.55,INR/share,Public market-data source,BSE delayed price as of Apr 29 2026
+Market capitalization,102000.0,INR crore,Public market-data source,Approx INR 1.02 trillion
+Enterprise value,92123.0,INR crore,Public market-data source,Approx INR 921.23 billion
+Risk-free rate,6.98,percent,India 10-year government bond yield around Apr 28 2026,Used for WACC framework
+Beta,0.64,x,Public market-data source,5-year beta from stock statistics
+India equity risk premium,7.00,percent,India ERP 2026 study / assumption,Used for cost of equity framework
+Company-specific risk premium,1.00,percent,Analyst assumption,Added to reflect auto-cycle and execution risk
+WACC used,12.46,percent,Calculated,Approx cost of equity because company is net-cash
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
