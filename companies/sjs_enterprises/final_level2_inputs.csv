@@ -1,0 +1,21 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,760.5,INR crore,Public FY2025 financial-statement / market-data baseline,Revenue baseline for model
+FY2025 implied EBIT margin,23.50,percent,Analyst/public-source normalized margin assumption,Used as operating margin baseline
+Revenue growth assumption,15.00,percent,Analyst assumption,Auto ancillary premiumization and content-per-vehicle growth assumption
+Tax rate,25.00,percent,Normalized assumption,Used for FCFF model
+Depreciation / sales,4.00,percent,Analyst assumption,Asset-intensity and acquisition integration proxy
+Capex / sales,5.50,percent,Analyst assumption,Capacity and product-development reinvestment proxy
+NWC / sales,10.00,percent,Analyst assumption,Auto ancillary working-capital proxy
+Cash and investments,200.0,INR crore,Public-market / balance-sheet proxy,Approx cash support; refine in SSRN appendix
+Debt,72.0,INR crore,Public-market / balance-sheet proxy,Debt proxy
+Net cash estimate,128.0,INR crore,Calculated,Cash and investments less debt proxy
+Shares outstanding,3.198,crore shares,Public market-data source,Approx 31.98 million shares
+Market price,1695.00,INR/share,Public delayed market price proxy,Used for probability comparison
+Market capitalization,5185.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,5057.0,INR crore,Public market-data proxy,Market sanity check
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.86,x,Public / analyst market-risk proxy,Auto ancillary midcap risk assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.50,percent,Analyst assumption,Reflects midcap customer/platform and acquisition/integration risk
+WACC used,14.50,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for low-debt/midcap company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
