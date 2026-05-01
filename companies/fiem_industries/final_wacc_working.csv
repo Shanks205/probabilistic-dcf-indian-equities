@@ -1,0 +1,12 @@
+component,value,unit,formula_or_source,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Valuation-date market input proxy
+Beta,1.03,x,Public valuation metrics source,Used as conservative beta reference for Fiem's midcap risk profile
+Equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Documented assumption for India equity risk
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects midcap size customer concentration and auto-cycle risk
+Cost of equity,15.19,percent,Rf + beta * ERP + CSRP,6.98% + 1.03*7.00% + 1.00%
+Pre-tax cost of debt,6.79,percent,Finance cost / lease-liability proxy,1.5 / 22.09; debt is not material
+Effective tax rate,25.80,percent,Tax / PBT,71.29 / 276.26
+After-tax cost of debt,5.04,percent,Pre-tax cost of debt * (1-tax rate),Used only if debt weight is material
+Equity weight,100.00,percent,Net-cash company approximation,WACC approximated to cost of equity
+Debt weight,0.00,percent,Net-cash company approximation,Debt not material for WACC weight in this model
+WACC used,15.13,percent,Rounded model WACC,Consistent with cost-of-equity approximation and prior framework
