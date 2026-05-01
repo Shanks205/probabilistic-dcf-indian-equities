@@ -1,0 +1,27 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,3868.8,INR crore,FY2025 public-source annual-report / financial summary,Revenue baseline for model
+FY2025 EBITDA,404.0,INR crore,FY2025 public-source annual-report / financial summary,Operating profit baseline
+FY2025 EBITDA margin,10.44,percent,Calculated,EBITDA divided by revenue
+FY2025 depreciation and amortisation,29.1,INR crore,FY2025 public-source financial statement proxy,Used for D&A/sales and EBIT bridge
+FY2025 implied EBIT,374.9,INR crore,Calculated,EBITDA less depreciation
+FY2025 implied EBIT margin,9.69,percent,Calculated,Implied EBIT divided by revenue
+FY2025 PAT,312.9,INR crore,FY2025 public-source annual-report / financial summary,Profit after tax baseline
+FY2025 net profit margin,8.09,percent,Calculated,PAT divided by revenue
+Revenue growth assumption,14.00,percent,Analyst assumption,Recycling volume growth and circular-economy expansion assumption
+Tax rate,13.90,percent,FY2025 public-source effective tax proxy,Used for FCFF model
+Depreciation / sales,0.75,percent,Calculated,D&A divided by revenue baseline
+Capex / sales,4.00,percent,Analyst assumption,Capacity expansion and maintenance reinvestment proxy
+NWC / sales,14.00,percent,Analyst assumption,Commodity-linked recycling working-capital proxy
+Cash and investments,300.0,INR crore,Public-market / balance-sheet proxy,Approx cash support; refine in SSRN appendix
+Debt,450.0,INR crore,Public-market / balance-sheet proxy,Debt proxy; refine in SSRN appendix
+Net debt estimate,150.0,INR crore,Calculated,Debt less cash and investments proxy
+Shares outstanding,6.917,crore shares,FY2025 EPS-implied proxy,Derived from PAT divided by EPS proxy
+Market price,1626.90,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,11328.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,11478.0,INR crore,Calculated proxy,Market capitalization plus net debt estimate
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,1.05,x,Analyst market-risk proxy,Commodity-linked industrial risk assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.75,percent,Analyst assumption,Reflects commodity cycle, working capital, execution and regulatory risk
+WACC used,14.00,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for commodity-linked industrial growth company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
