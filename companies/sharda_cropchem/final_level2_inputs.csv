@@ -1,0 +1,23 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,4319.9,INR crore,Public FY2025 results / financial-statement summary,Operating baseline for model
+FY2025 PBT,378.3,INR crore,Public FY2025 results / financial-statement summary,Profit before tax baseline
+FY2025 PAT,304.4,INR crore,Public FY2025 results / financial-statement summary,Profit after tax baseline
+FY2025 effective tax rate,19.5,percent,Calculated,Tax implied from PBT and PAT
+FY2025 depreciation / sales,6.36,percent,Public financial-statement proxy / analyst normalization,Used for FCFF bridge; exact annual-report schedule for SSRN appendix
+Normalized EBIT margin,10.0,percent,Analyst assumption,Normalizes agrochemical margin recovery without extrapolating too aggressively
+Revenue growth assumption,8.0,percent,Analyst assumption,Reflects recovery and registration-led growth but remains conservative
+Capex / sales,9.0,percent,Analyst assumption,Includes business reinvestment and registration-related spending proxy
+NWC / sales,18.0,percent,Analyst assumption,High working-capital intensity due to receivables/inventory cycle
+Cash and investments,932.0,INR crore,Public market-data balance-sheet proxy,Approx cash/investments support
+Debt,153.0,INR crore,Public market-data balance-sheet proxy,Debt proxy
+Net cash estimate,779.0,INR crore,Calculated,Cash and investments less debt proxy
+Shares outstanding,9.022,crore shares,Public market-data source,Approx 90.22 million shares
+Market price,1033.20,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,9318.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,8539.0,INR crore,Calculated proxy,Market cap less net cash proxy
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.86,x,Public / analyst market-risk proxy,Agrochemical and export-risk beta assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.50,percent,Analyst assumption,Reflects working-capital export and agrochemical-cycle risk
+WACC used,14.50,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for net-cash/low-debt company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
