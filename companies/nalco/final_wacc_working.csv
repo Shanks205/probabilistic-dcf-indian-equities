@@ -1,0 +1,12 @@
+component,value,unit,formula_or_source,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Valuation-date market input proxy
+Beta,0.78,x,Public / analyst market-risk proxy,Used for cyclical commodity risk profile
+Equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Documented assumption for India equity risk
+Company-specific risk premium,1.50,percent,Analyst assumption,Reflects aluminium cyclicality PSU risk and commodity exposure
+Cost of equity,13.94,percent,Rf + beta * ERP + CSRP,6.98% + 0.78*7.00% + 1.50%
+Pre-tax cost of debt,7.50,percent,Analyst assumption,Debt not material for net-cash business
+Effective tax rate,25.40,percent,Normalized tax assumption,Used for FCFF and after-tax debt cost
+After-tax cost of debt,5.60,percent,Pre-tax cost of debt * (1-tax rate),Used only if debt weight is material
+Equity weight,100.00,percent,Net-cash company approximation,WACC approximated to cost of equity
+Debt weight,0.00,percent,Net-cash company approximation,Debt not material
+WACC used,13.94,percent,Rounded model WACC,Used in Level 2 draft valuation
