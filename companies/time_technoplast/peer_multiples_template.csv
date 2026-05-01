@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,fcf_yield,notes
+,PENDING,PENDING,,,,,,,,,,Fill after valuation date is locked
+,Mold-Tek Packaging,MOLDTKPAC.NS,,,,,,,,,,Packaging peer candidate
+,EPL Limited,EPL.NS,,,,,,,,,,Large packaging reference; business mix differs
+,Jindal Poly Films,JINDALPOLY.NS,,,,,,,,,,Polymer products / packaging reference; cycle effects possible
+,Cosmo First,COSMOFIRST.NS,,,,,,,,,,Specialty films / packaging peer candidate
+,Supreme Industries,SUPREMEIND.NS,,,,,,,,,,High-quality plastics benchmark; scale and product economics differ
+,Time Technoplast,TIMETECHNO.NS,,,,,,,,,,Subject company; market multiples to be locked on same valuation date
