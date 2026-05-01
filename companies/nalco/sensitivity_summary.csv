@@ -1,0 +1,9 @@
+sensitivity_area,base_case,downside_case,upside_case,valuation_relevance,status
+Revenue growth,4.0%,0.0%,8.0%,Affects explicit FCFF and terminal scale,Level 2 draft
+Normalized EBIT margin,25.0%,18.0%,34.0%,Major driver of commodity-cycle valuation,Level 2 draft
+Tax rate,25.4%,28.0%,23.0%,Affects NOPAT and FCFF,Level 2 draft
+Depreciation / sales,4.33%,3.5%,5.5%,Affects FCFF add-back and EBIT bridge,Level 2 draft
+Capex / sales,7.0%,10.0%,5.0%,Higher capex reduces FCFF,Level 2 draft
+NWC / sales,10.0%,14.0%,7.0%,Higher working capital reduces FCFF,Level 2 draft
+WACC,13.94%,15.14%,12.74%,Major driver of present value and terminal value,Level 2 draft
+Terminal growth,3.5%,2.5%,4.5%,Major driver of terminal value but kept conservative for cyclicality,Level 2 draft
