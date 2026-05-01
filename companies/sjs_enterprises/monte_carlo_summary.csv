@@ -1,0 +1,13 @@
+metric,value,notes
+Simulations used,10000,Level 2 draft simulation count
+Mean fair value per share,576.51,Average simulated value using auto-ancillary public-source inputs
+Median fair value per share,567.11,Central simulated value
+5th percentile fair value per share,438.81,Severe downside valuation estimate
+25th percentile fair value per share,510.34,Conservative valuation estimate
+75th percentile fair value per share,632.63,Upside valuation estimate
+95th percentile fair value per share,744.82,Strong upside valuation estimate
+Market price used,1695.00,Delayed public market price proxy used for comparison
+Probability value above market price,0.00%,Share of simulations above market price
+Probability value below market price,100.00%,Share of simulations below market price
+Median margin of safety,-66.54%,Median simulated value divided by market price minus one
+Simulation status,Level 2 final draft,Uses auto-ancillary/premiumization assumptions; not investment advice
