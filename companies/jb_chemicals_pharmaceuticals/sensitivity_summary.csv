@@ -1,0 +1,9 @@
+sensitivity_area,base_case,downside_case,upside_case,valuation_relevance,status
+Revenue growth,10.0%,6.0%,15.0%,Affects explicit FCFF and terminal scale,Level 2 draft
+EBIT margin,22.0%,19.0%,25.0%,Major driver of operating cash flow,Level 2 draft
+Tax rate,25.7%,28.0%,24.0%,Affects NOPAT and FCFF,Level 2 draft
+Depreciation / sales,4.37%,5.0%,3.5%,Affects FCFF add-back and EBIT bridge,Level 2 draft
+Capex / sales,5.0%,6.5%,4.0%,Higher capex reduces FCFF,Level 2 draft
+NWC / sales,10.0%,14.0%,7.0%,Higher working capital reduces FCFF,Level 2 draft
+WACC,12.5%,14.0%,11.0%,Major driver of present value and terminal value,Level 2 draft
+Terminal growth,4.5%,3.5%,5.5%,Major driver of terminal value,Level 2 draft
