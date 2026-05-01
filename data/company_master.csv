@@ -1,0 +1,13 @@
+company_name,ticker,source_type,sector,valuation_archetype,main_uncertainty_driver,status
+Hero MotoCorp,HEROMOTOCO.NS,Retained,Auto / Two-wheelers,Mature auto cash-flow recovery,Volume growth EV transition and margin recovery,Company 1 setup started
+Fiem Industries,FIEMIND.NS,Retained,Auto Components,Auto-component growth,Customer/platform concentration and margin sustainability,Pending
+Triveni Turbine,TRITURBINE.NS,Retained,Capital Goods,Order-book driven growth,Order conversion export growth and aftermarket mix,Pending
+NALCO,NATIONALUM.NS,Retained,Metals / Aluminium,Cyclical commodity,Aluminium alumina prices and mid-cycle margins,Pending
+Sharda Cropchem,SHARDACROP.NS,Retained,Agrochemicals,Working-capital sensitive agrochemical,Receivables cash conversion and registration-led recovery,Pending
+Time Technoplast,TIMETECHNO.NS,Retained,Industrial Packaging,Industrial packaging and cash conversion,Raw-material volatility value-added mix and working capital,Pending
+Bharat Electronics,BEL.NS,Fresh Screen,Defence Electronics,Defence electronics order-book compounder,Order execution margin sustainability and valuation expectations,Pending
+Polycab India,POLYCAB.NS,Fresh Screen,Cables and Electricals,Quality compounder,Growth durability margin stability and working capital,Pending
+SJS Enterprises,SJS.NS,Fresh Screen,Auto Ancillary,Auto ancillary premiumization,Content-per-vehicle growth customer mix and operating leverage,Pending
+Shilchar Technologies,SHILCTECH.NS,Fresh Screen,Power Equipment,High-ROCE industrial growth,Capacity expansion transformer demand and ROCE sustainability,Pending
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,Fresh Screen,Pharma,Stable pharma,Domestic formulation growth margin stability and regulatory risk,Pending
+Gravita India,GRAVITA.NS,Fresh Screen,Recycling and Metals,Commodity-linked recycling industrial,Commodity spreads recycling margins global expansion and working capital,Pending
