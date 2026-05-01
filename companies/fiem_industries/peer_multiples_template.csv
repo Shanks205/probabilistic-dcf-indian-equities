@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,notes
+,PENDING,PENDING,,,,,,,,,Fill after valuation date is locked
+,Lumax Industries,LUMAXIND.NS,,,,,,,,,Lighting/component peer candidate
+,Minda Corporation,MINDACORP.NS,,,,,,,,,Auto-component/electronics peer candidate
+,Uno Minda,UNOMINDA.NS,,,,,,,,,Large diversified auto-component benchmark
+,Varroc Engineering,VARROC.NS,,,,,,,,,Lighting/export component peer candidate
+,Sona BLW Precision,SONACOMS.NS,,,,,,,,,EV-linked component reference; business mix differs
+,Fiem Industries,FIEMIND.NS,,,,,,,,,Subject company; market multiples to be locked on same valuation date
