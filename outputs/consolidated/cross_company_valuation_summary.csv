@@ -1,0 +1,13 @@
+company,ticker,valuation_archetype,deterministic_fair_value_per_share,market_price_used,deterministic_value_vs_market,monte_carlo_median_fair_value,monte_carlo_5th_percentile,monte_carlo_95th_percentile,probability_value_above_market,median_margin_of_safety,level2_status
+Hero MotoCorp,HEROMOTOCO.NS,Mature auto cash-flow recovery,3616.15,5111.55,-29.26%,3523.45,2844.35,4488.29,0.86%,-31.07%,Level 2 Final Draft
+Fiem Industries,FIEMIND.NS,Auto-component growth,620.48,2224.90,-72.11%,614.74,419.69,850.80,0.00%,-72.37%,Level 2 Final Draft
+Triveni Turbine,TRITURBINE.NS,Capital goods / order-book conversion,185.57,573.80,-67.66%,181.32,140.44,241.66,0.00%,-68.40%,Level 2 Final Draft
+NALCO,NATIONALUM.NS,Cyclical commodity,186.93,423.90,-55.90%,189.06,143.33,250.07,0.00%,-55.40%,Level 2 Final Draft
+Sharda Cropchem,SHARDACROP.NS,Working-capital-sensitive agrochemical,312.88,1033.20,-69.72%,293.08,131.59,469.93,0.00%,-71.63%,Level 2 Final Draft
+Time Technoplast,TIMETECHNO.NS,Industrial packaging / cash conversion,84.50,193.01,-56.22%,82.03,54.87,118.09,0.02%,-57.50%,Level 2 Final Draft
+Bharat Electronics,BEL.NS,Defence electronics / order book,100.69,450.15,-77.63%,96.96,77.90,123.92,0.00%,-78.46%,Level 2 Final Draft
+Polycab India,POLYCAB.NS,Quality compounder / cables and electricals,1322.55,7847.00,-83.15%,1260.17,897.37,1713.89,0.00%,-83.94%,Level 2 Final Draft
+SJS Enterprises,SJS.NS,Auto ancillary / premiumization,575.34,1695.00,-66.06%,567.11,438.81,744.82,0.00%,-66.54%,Level 2 Final Draft
+Shilchar Technologies,SHILCTECH.NS,High-ROCE industrial growth,1263.16,4774.30,-73.54%,1232.69,929.18,1584.69,0.00%,-74.18%,Level 2 Final Draft
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,Stable pharma,625.22,2121.80,-70.53%,617.99,505.11,763.96,0.00%,-70.87%,Level 2 Final Draft
+Gravita India,GRAVITA.NS,Recycling / commodity-linked industrial,269.66,1626.90,-83.43%,263.91,181.74,374.52,0.00%,-83.78%,Level 2 Final Draft
