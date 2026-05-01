@@ -1,0 +1,12 @@
+component,value,unit,formula_or_source,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Valuation-date market input proxy
+Beta,0.86,x,Public / analyst market-risk proxy,Used for industrial packaging midcap risk profile
+Equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Documented assumption for India equity risk
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects raw-material spread working-capital and midcap risk
+Cost of equity,13.00,percent,Rf + beta * ERP + CSRP,6.98% + 0.86*7.00% + 1.00%
+Pre-tax cost of debt,10.00,percent,Analyst approximation / finance-cost sanity check,Debt cost should be refined with average debt schedule in SSRN appendix
+Effective tax rate,25.44,percent,Tax / PBT,120.68 / 474.26
+After-tax cost of debt,7.46,percent,Pre-tax cost of debt * (1-tax rate),Used in WACC sanity check
+Equity weight,90.00,percent,Market-cap/EV proxy,Approx capital structure based on market cap vs EV
+Debt weight,10.00,percent,Market-cap/EV proxy,Approx net debt weight
+WACC used,14.00,percent,Conservative rounded model WACC,Includes midcap and business-risk buffer
