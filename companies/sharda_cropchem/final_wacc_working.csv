@@ -1,0 +1,12 @@
+component,value,unit,formula_or_source,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Valuation-date market input proxy
+Beta,0.86,x,Public / analyst market-risk proxy,Used for agrochemical/export-risk profile
+Equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Documented assumption for India equity risk
+Company-specific risk premium,1.50,percent,Analyst assumption,Reflects export agrochemical working-capital and product-registration risk
+Cost of equity,14.50,percent,Rf + beta * ERP + CSRP,6.98% + 0.86*7.00% + 1.50%
+Pre-tax cost of debt,8.50,percent,Analyst assumption,Debt not dominant in valuation
+Effective tax rate,19.50,percent,Calculated from FY2025 PBT and PAT,Used for FCFF model
+After-tax cost of debt,6.84,percent,Pre-tax cost of debt * (1-tax rate),Used only if debt weight is material
+Equity weight,100.00,percent,Low-debt/net-cash approximation,WACC approximated to cost of equity
+Debt weight,0.00,percent,Low-debt/net-cash approximation,Debt not material in the simplified model
+WACC used,14.50,percent,Rounded model WACC,Used in Level 2 draft valuation
