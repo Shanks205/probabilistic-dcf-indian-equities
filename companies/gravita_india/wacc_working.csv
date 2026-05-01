@@ -1,0 +1,12 @@
+wacc_component,value,unit,notes
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy
+Beta,1.05,x,Analyst market-risk proxy for commodity-linked recycling industrial business
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate
+Company-specific risk premium,1.75,percent,Reflects commodity cycle, working capital, execution and regulatory risk
+Pre-tax cost of debt,9.00,percent,Illustrative cost of debt proxy
+Tax rate,13.90,percent,FY2025 effective tax proxy / normalized assumption
+After-tax cost of debt,7.75,percent,Pre-tax cost of debt multiplied by one minus tax rate
+Cost of equity,16.08,percent,Risk-free rate plus beta times ERP plus CSRP
+Debt weight,4.00,percent,Moderate debt proxy for commodity-linked industrial company
+Equity weight,96.00,percent,Market-value equity dominated capital structure proxy
+Rounded WACC used,14.00,percent,Blended and moderated WACC used for Level 2 draft sensitivity framework
