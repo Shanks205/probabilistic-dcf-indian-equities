@@ -1,0 +1,8 @@
+company_name,variable,base_case,bear_case,bull_case,distribution_type,notes
+Hero MotoCorp,revenue_growth,,,,triangular,To be filled after historical sales analysis
+Hero MotoCorp,ebit_margin,,,,triangular,To be filled after operating margin normalization
+Hero MotoCorp,tax_rate,,,,triangular,To be based on normalized effective tax rate
+Hero MotoCorp,capex_sales,,,,triangular,To be based on historical capex intensity
+Hero MotoCorp,nwc_sales,,,,triangular,To be based on working capital intensity
+Hero MotoCorp,wacc,,,,normal,To be linked with beta cost of equity and cost of debt framework
+Hero MotoCorp,terminal_growth,,,,uniform,Conservative long-term nominal growth assumption
