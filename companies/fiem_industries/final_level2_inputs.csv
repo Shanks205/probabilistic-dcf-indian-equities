@@ -1,0 +1,23 @@
+input_item,value,unit,source_status,notes
+FY2025 net sales,2422.6,INR crore,Equitymaster annual-report analysis / annual report cross-check,Operating income baseline
+FY2025 revenue from stockanalysis,2405.6,INR crore,StockAnalysis public financials,Used as cross-check against Equitymaster annual-report analysis
+FY2025 operating profit,321.4,INR crore,Equitymaster annual-report analysis,Operating profit / EBITDA-style baseline
+FY2025 depreciation,64.3,INR crore,Equitymaster annual-report analysis and annual-report snippet,Used for D&A/sales
+FY2025 finance cost,1.5,INR crore,Equitymaster annual-report analysis,Used for debt-cost sanity check
+FY2025 PBT,276.26,INR crore,Annual report snippet / Equitymaster annual-report analysis,Consolidated PBT
+FY2025 tax expense,71.29,INR crore,Annual report snippet / Equitymaster annual-report analysis,Tax expense
+FY2025 PAT,204.92,INR crore,Annual report snippet / Equitymaster annual-report analysis,Consolidated PAT after associate share
+FY2025 cash and equivalents,298.31,INR crore,Annual report balance sheet snippet / StockAnalysis balance sheet,Cash and cash equivalents
+FY2025 lease liabilities,22.09,INR crore,Annual report balance sheet snippet,Non-current and current lease liabilities
+FY2025 borrowings,0.00,INR crore,Annual report balance sheet snippet,No current/non-current borrowings shown
+Net cash estimate,276.20,INR crore,Calculated,Cash and equivalents less lease liabilities proxy
+Shares outstanding,2.632,crore shares,StockAnalysis statistics / equity share capital cross-check,26.32 million shares = 2.632 crore shares
+Market price,2224.90,INR/share,StockAnalysis delayed price as of Apr 16 2026,Used for probability comparison
+Market capitalization,5899.0,INR crore,StockAnalysis market cap as of Apr 15/16 2026,Market sanity check
+Enterprise value,5690.0,INR crore,StockAnalysis enterprise value as of Apr 15/16 2026,Market sanity check
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,1.03,x,ValueInvesting.io valuation metrics,Used as conservative beta reference for midcap risk
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.00,percent,Analyst assumption,Reflects midcap auto-component and customer-concentration risk
+WACC used,15.13,percent,Model assumption / prior framework cross-check,Consistent with higher risk than Hero MotoCorp
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
