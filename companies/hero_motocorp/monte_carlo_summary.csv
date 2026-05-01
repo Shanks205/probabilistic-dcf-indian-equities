@@ -1,0 +1,9 @@
+metric,value,notes
+Simulations used,10000,Preliminary simulation count
+Mean fair value per share,2239.20,Average simulated value
+Median fair value per share,2204.48,Central simulated value
+5th percentile fair value per share,1670.86,Severe downside valuation estimate
+25th percentile fair value per share,1976.17,Conservative valuation estimate
+75th percentile fair value per share,2466.82,Upside valuation estimate
+95th percentile fair value per share,2904.26,Strong upside valuation estimate
+Simulation status,Preliminary,Uses public-source baseline and placeholder assumption ranges
