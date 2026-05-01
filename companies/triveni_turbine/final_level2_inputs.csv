@@ -1,0 +1,26 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,2005.8,INR crore,Public annual-report summary / director-report excerpt,Rs 20058m converted to crore
+FY2025 EBITDA,517.7,INR crore,Public annual-report summary / director-report excerpt,Rs 5177m converted to crore
+FY2025 depreciation,26.3,INR crore,Public annual-report summary / director-report excerpt,Rs 263m converted to crore
+FY2025 implied EBIT,491.4,INR crore,Calculated,EBITDA less depreciation
+FY2025 PBT,488.6,INR crore,Public annual-report summary / director-report excerpt,Rs 4886m converted to crore
+FY2025 tax expense,130.0,INR crore,Public annual-report summary / director-report excerpt,Rs 1300m converted to crore
+FY2025 PAT,358.6,INR crore,Public annual-report summary / director-report excerpt,Rs 3586m converted to crore
+Effective tax rate,26.60,percent,Calculated,Tax expense divided by PBT
+FY2025 EBIT margin,24.50,percent,Calculated,Implied EBIT divided by revenue
+Revenue growth assumption,14.00,percent,Analyst assumption,Reflects order-book and export growth but remains below extreme bull case
+Capex / sales,3.50,percent,Analyst assumption,Capital-goods reinvestment placeholder
+NWC / sales,12.00,percent,Analyst assumption,Order-book and receivable working-capital intensity
+Cash and investments,956.0,INR crore,Market data / balance-sheet proxy,Used as net cash proxy pending annual report cash schedule
+Debt,0.0,INR crore,Market data / balance-sheet proxy,Triveni Turbine treated as net-cash / debt-light
+Net cash estimate,956.0,INR crore,Calculated,Cash and investments minus debt
+Shares outstanding,31.789,crore shares,Public market-data source,Approx 317.89 million shares
+Market price,573.80,INR/share,Public market-data source,Delayed market price used for probability comparison
+Market capitalization,18137.0,INR crore,Public market-data source,Market sanity check
+Enterprise value,17181.0,INR crore,Public market-data source,Market sanity check
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.75,x,Analyst/public-market proxy,Capital-goods quality compounder beta assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,0.75,percent,Analyst assumption,Reflects order-book execution and midcap valuation risk
+WACC used,13.00,percent,Rounded model assumption,Cost-of-equity style WACC for net-cash company
+Terminal growth,4.00,percent,Analyst assumption,Conservative long-term nominal growth
