@@ -3,8 +3,9 @@
 ## Current Completion Level
 
 ```text
-Current level: Level 1.7 — Public-source baseline upgraded, full Level 2 pending
-Target next level: Level 2 — Public-source research complete
+Current level: Level 2 Draft — public-source analysis substantially upgraded
+Target next level: Level 2 Final — official annual-report line-item reconciliation complete
+SSRN-ready level: Level 3 — not yet
 ```
 
 ## Files Present
@@ -16,54 +17,60 @@ Target next level: Level 2 — Public-source research complete
 | source_log.md | Present — upgraded source-status detail |
 | assumption_log.md | Present — upgraded assumption status |
 | assumptions_template.csv | Present |
-| dcf_output_summary.csv | Present — preliminary; should be regenerated after verified inputs |
-| monte_carlo_summary.csv | Present — preliminary; should be regenerated after verified inputs |
+| dcf_output_summary.csv | Present — updated after public-source baseline refresh |
+| monte_carlo_summary.csv | Present — updated after public-source baseline refresh |
 | sensitivity_summary.csv | Present |
 | risk_matrix.md | Present |
 | peer_framework.md | Present — framework only |
+| peer_multiples_template.csv | Present — numerical refresh pending |
+| market_input_log.md | Present |
+| annual_report_reconciliation_checklist.md | Present |
+| chart_output_plan.md | Present |
+| verified_analysis_summary.md | Present |
 | valuation_note.md | Present |
 | research_completion_audit.md | Present |
 
 ## What Is Complete
 
-The following items are complete at the enhanced GitHub research-architecture level:
+The following items are complete at the enhanced public-source GitHub research level:
 
 1. Hero MotoCorp company folder created.
 2. FY2024-FY2025 public-source annual-report analysis baseline added.
 3. Source boundary documented.
 4. Assumptions updated to reflect the stronger FY2025 public-source baseline.
-5. Deterministic DCF output added.
-6. Monte Carlo output added.
-7. Sensitivity summary added.
-8. Risk matrix added.
-9. Peer framework added.
-10. Valuation note added.
-11. Research audit added.
+5. Deterministic DCF output regenerated using updated baseline assumptions.
+6. Monte Carlo output regenerated using updated baseline assumptions.
+7. Market price proxy added for probability-of-undervaluation calculation.
+8. Sensitivity summary added.
+9. Risk matrix added.
+10. Peer framework and peer multiples template added.
+11. Market-input log added.
+12. Annual-report reconciliation checklist added.
+13. Chart output plan added.
+14. Verified public-source analysis summary added.
+15. Research audit updated.
 
 ## What Is Still Not Complete
 
-The following items must be completed before Hero MotoCorp can be marked Level 2 public-source complete:
+The following items must be completed before Hero MotoCorp can be marked Level 2 Final:
 
-1. Official annual-report line-by-line reconciliation for revenue, operating profit, D&A, PBT, tax, PAT, capex, working capital, cash, debt, and shares.
-2. Official source references and annual-report page/section notes.
-3. Date-consistent market price lock.
-4. Beta regression and WACC refresh.
-5. DCF output regenerated after verified data update.
-6. Monte Carlo output regenerated after verified distribution update.
-7. Peer numerical multiples table using one valuation date.
-8. Charts for valuation distribution and sensitivity.
+1. Official annual-report line-by-line reconciliation for capex, working capital, cash, debt, investments, and share count.
+2. Official annual-report page/section references added to the source log.
+3. Date-consistent peer numerical multiples table.
+4. Beta regression and WACC refresh using downloadable price series.
+5. Final charts generated and saved in the outputs folder.
 
 ## SSRN Readiness
 
 ```text
 SSRN-ready status: Not yet
-Reason: official annual-report reconciliation, market inputs, beta regression, peer numerical table, and final charts are pending.
+Reason: official line-item reconciliation, final peer numerical table, beta regression, and charts are still pending.
 ```
 
 ## Research Boundary
 
-Hero MotoCorp is now stronger than a simple scaffold and is suitable as an enhanced GitHub work-in-progress case. It is still not ready to be used as a final SSRN valuation section.
+Hero MotoCorp is now a strong GitHub public-source research draft. It is suitable for portfolio demonstration and project development, but it should not yet be used as a final SSRN company section.
 
 ## Next Action
 
-Complete official annual-report reconciliation and market-input refresh before marking Level 2.
+Complete official annual-report line-item extraction and final chart generation before marking Level 2 Final.
