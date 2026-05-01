@@ -1,0 +1,25 @@
+input_item,value,unit,source_status,notes
+FY2025 revenue from operations,16787.6,INR crore,Public annual-report / financial-statement summary,Operating baseline for model
+FY2025 EBITDA,4935.4,INR crore,Public financial-statement summary,Strong cycle-year operating profit baseline
+FY2025 depreciation,727.7,INR crore,Public financial-statement summary,Used for D&A/sales
+FY2025 implied EBIT,4207.7,INR crore,Calculated,EBITDA less depreciation
+FY2025 reported PAT,5325.0,INR crore,Public annual-report result summary,Strong commodity-cycle profit baseline
+FY2025 tax rate,25.4,percent,Public financial-statement summary / normalized assumption,Used for FCFF model
+Normalized / mid-cycle EBIT margin,25.0,percent,Analyst assumption,Lower than peak commodity-cycle margin to avoid extrapolating peak conditions
+Revenue growth assumption,4.0,percent,Analyst assumption,Cyclical mature commodity growth assumption
+Depreciation / sales,4.334,percent,Calculated,727.7 / 16787.6
+Capex / sales,7.0,percent,Analyst assumption,Commodity producer reinvestment intensity
+NWC / sales,10.0,percent,Analyst assumption,Commodity working-capital intensity
+Cash and investments,8000.0,INR crore,Public-market / balance-sheet proxy,Approx net-cash support; final annual-report cash schedule for SSRN appendix
+Debt,150.0,INR crore,Public-market / balance-sheet proxy,Debt-light balance sheet assumption
+Net cash estimate,7850.0,INR crore,Calculated,Cash and investments less debt proxy
+Shares outstanding,183.7,crore shares,Public market-data source,Approx 1.837 billion shares
+Market price,423.90,INR/share,Public delayed market price around Apr 2026,Used for probability comparison
+Market capitalization,77800.0,INR crore,Public market-data proxy,Market sanity check
+Enterprise value,69950.0,INR crore,Calculated proxy,Market cap less net cash proxy
+Risk-free rate,6.98,percent,India 10-year government bond yield proxy,Used for WACC framework
+Beta,0.78,x,Public / analyst market-risk proxy,Cyclical commodity beta assumption
+India equity risk premium,7.00,percent,India ERP assumption / 2026 country-risk estimate,Used for cost of equity framework
+Company-specific risk premium,1.50,percent,Analyst assumption,Reflects commodity cyclicality and PSU risk
+WACC used,13.94,percent,Calculated / rounded model assumption,Cost-of-equity style WACC for net-cash cyclicality
+Terminal growth,3.50,percent,Analyst assumption,Conservative long-term growth for cyclical commodity business
