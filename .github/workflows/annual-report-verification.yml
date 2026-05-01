@@ -1,0 +1,60 @@
+name: Annual Report Verification
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/verification/annual_report_download_manifest.csv"
+      - "data/verification/company_source_registry.csv"
+      - "scripts/download_annual_reports.py"
+      - "scripts/verify_annual_report_pages.py"
+      - ".github/workflows/annual-report-verification.yml"
+
+jobs:
+  download-and-verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download annual report PDFs
+        run: |
+          python scripts/download_annual_reports.py
+
+      - name: Verify annual report page candidates
+        run: |
+          python scripts/verify_annual_report_pages.py
+
+      - name: Show verification outputs
+        run: |
+          echo "Download log:"
+          cat outputs/verification/annual_report_download_log.csv || true
+          echo "Candidate page map rows:"
+          python - <<'PY'
+          import pandas as pd
+          p='outputs/verification/annual_report_page_candidates.csv'
+          df=pd.read_csv(p)
+          print(df.head(30).to_string(index=False))
+          print('rows=', len(df))
+          PY
+
+      - name: Upload verification artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: annual-report-verification-outputs
+          path: |
+            data/annual_reports/*.pdf
+            outputs/verification/annual_report_download_log.csv
+            outputs/verification/annual_report_page_candidates.csv
+          if-no-files-found: warn
