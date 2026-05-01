@@ -1,9 +1,13 @@
 metric,value,notes
-Simulations used,10000,Preliminary simulation count
-Mean fair value per share,2239.20,Average simulated value
-Median fair value per share,2204.48,Central simulated value
-5th percentile fair value per share,1670.86,Severe downside valuation estimate
-25th percentile fair value per share,1976.17,Conservative valuation estimate
-75th percentile fair value per share,2466.82,Upside valuation estimate
-95th percentile fair value per share,2904.26,Strong upside valuation estimate
-Simulation status,Preliminary,Uses public-source baseline and placeholder assumption ranges
+Simulations used,10000,Updated public-source simulation count
+Mean fair value per share,2572.18,Average simulated value using upgraded FY2025 public-source baseline
+Median fair value per share,2527.42,Central simulated value
+5th percentile fair value per share,1971.72,Severe downside valuation estimate
+25th percentile fair value per share,2282.83,Conservative valuation estimate
+75th percentile fair value per share,2813.45,Upside valuation estimate
+95th percentile fair value per share,3311.46,Strong upside valuation estimate
+Market price used,5111.55,BSE delayed price as of Apr 29 2026 from public market-data source
+Probability value above market price,0.01%,Share of simulations above market price
+Probability value below market price,99.99%,Share of simulations below market price
+Median margin of safety,-50.55%,Median simulated value divided by market price minus one
+Simulation status,Public-source baseline upgraded,Still pending official capex working-capital and annual-report line-item reconciliation
