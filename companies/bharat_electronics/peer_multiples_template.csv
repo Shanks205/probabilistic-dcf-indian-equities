@@ -1,0 +1,8 @@
+valuation_date,company,ticker,market_cap_inr_cr,enterprise_value_inr_cr,revenue_inr_cr,ebitda_inr_cr,pat_inr_cr,ev_revenue,ev_ebitda,pe_ratio,order_book_revenue,notes
+,PENDING,PENDING,,,,,,,,,,Fill after valuation date is locked
+,Hindustan Aeronautics,HAL.NS,,,,,,,,,,Large defence aerospace PSU benchmark
+,Bharat Dynamics,BDL.NS,,,,,,,,,,Defence missiles/systems PSU peer
+,Mazagon Dock Shipbuilders,MAZDOCK.NS,,,,,,,,,,Defence shipbuilding PSU peer; cycle differs
+,Data Patterns,DATAPATTNS.NS,,,,,,,,,,Defence electronics peer; smaller scale
+,Astra Microwave Products,ASTRAMICRO.NS,,,,,,,,,,Defence electronics/RF systems peer
+,Bharat Electronics,BEL.NS,,,,,,,,,,Subject company; market multiples to be locked on same valuation date
