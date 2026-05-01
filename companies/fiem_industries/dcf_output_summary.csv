@@ -1,0 +1,7 @@
+metric,value_inr_cr_or_per_share,notes
+PV of explicit FCFF,641.18,Present value of five-year forecast FCFF
+Terminal value,2207.99,Undiscounted Gordon-growth terminal value
+PV of terminal value,1091.58,Discounted terminal value
+Enterprise value,1732.76,PV of explicit FCFF plus PV of terminal value
+Equity value,2008.96,Enterprise value less net debt; net cash increases equity value
+Fair value per share,76.33,Preliminary model output using placeholder assumptions; not a target price
