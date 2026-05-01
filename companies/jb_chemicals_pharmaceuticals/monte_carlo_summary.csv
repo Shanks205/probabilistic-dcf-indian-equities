@@ -1,0 +1,13 @@
+metric,value,notes
+Simulations used,10000,Level 2 draft simulation count
+Mean fair value per share,624.00,Average simulated value using stable pharma / branded generics assumptions
+Median fair value per share,617.99,Central simulated value
+5th percentile fair value per share,505.11,Severe downside valuation estimate
+25th percentile fair value per share,567.75,Conservative valuation estimate
+75th percentile fair value per share,673.61,Upside valuation estimate
+95th percentile fair value per share,763.96,Strong upside valuation estimate
+Market price used,2121.80,Delayed public market price proxy used for comparison
+Probability value above market price,0.00%,Share of simulations above market price
+Probability value below market price,100.00%,Share of simulations below market price
+Median margin of safety,-70.87%,Median simulated value divided by market price minus one
+Simulation status,Level 2 final draft,Uses stable pharma / branded generics assumptions; not investment advice
