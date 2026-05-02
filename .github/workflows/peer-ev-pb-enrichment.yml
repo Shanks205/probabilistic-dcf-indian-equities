@@ -1,0 +1,46 @@
+name: Peer EV PB Enrichment
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/enrich_peer_multiples_with_yahoo_ev_pb.py"
+      - "data/peer_sources/peer_yahoo_ticker_map.csv"
+      - "outputs/peer_tables/peer_multiple_refresh_screener_filled.csv"
+      - "requirements.txt"
+      - ".github/workflows/peer-ev-pb-enrichment.yml"
+
+jobs:
+  enrich-peer-ev-pb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Enrich peer multiples with Yahoo EV and PB
+        run: |
+          python scripts/enrich_peer_multiples_with_yahoo_ev_pb.py
+
+      - name: Show enrichment status
+        run: |
+          cat outputs/peer_tables/peer_multiple_ev_pb_enrichment_status.md || true
+
+      - name: Upload EV PB enriched peer artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: peer-ev-pb-enriched-outputs
+          path: |
+            outputs/peer_tables/peer_multiple_refresh_ev_pb_enriched.csv
+            outputs/peer_tables/peer_multiple_ev_pb_enrichment_status.md
+          if-no-files-found: warn
