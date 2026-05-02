@@ -1,0 +1,13 @@
+company,peers,parsed_peers,median_pe,median_ev_sales_market_cap_proxy,median_ev_ebitda_market_cap_proxy,median_roe,median_roce,review_status
+Bharat Electronics,4,2,49.60,9.35,32.92,20.25,26.30,Partial peer parse; Bharat Dynamics and Data Patterns require manual replacement
+Fiem Industries,4,4,37.80,2.01,17.62,17.55,17.60,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+Gravita India,4,4,15.85,1.50,9.17,16.50,16.05,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+Hero MotoCorp,3,3,36.10,4.84,23.86,24.10,28.10,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+JB Chemicals and Pharmaceuticals,4,4,38.05,6.37,24.19,22.15,23.70,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+NALCO,4,4,12.90,2.11,8.05,21.30,23.05,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+Polycab India,4,4,40.10,3.00,30.10,17.50,23.10,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+SJS Enterprises,4,4,42.90,2.28,18.30,14.80,15.75,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+Sharda Cropchem,4,4,24.75,2.19,15.52,15.00,19.20,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+Shilchar Technologies,4,2,59.95,7.58,43.41,20.70,26.85,Partial peer parse; Voltamp Transformers and Bharat Bijlee require manual replacement
+Time Technoplast,4,4,24.45,2.17,13.50,16.55,20.50,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
+Triveni Turbine,4,4,82.45,9.49,63.89,17.95,23.05,Core Screener peer fields parsed; EV ratios are market-cap proxy until true EV is added
