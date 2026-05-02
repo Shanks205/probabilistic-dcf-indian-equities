@@ -1,0 +1,13 @@
+company,peer_count,parsed_true_ev_sales,median_true_ev_sales,median_true_ev_ebitda,median_pe,median_pb,median_roe,median_roce,review_status
+Bharat Electronics,4,2,8.72,30.86,49.6,10.57,20.25,26.3,Partial: missing EV/Sales or EV/EBITDA in some peers
+Fiem Industries,4,4,2.12,18.55,37.8,6.0,17.55,17.6,Complete EV/PB enrichment
+Gravita India,4,4,1.7,9.79,15.85,4.29,16.5,16.05,Complete EV/PB enrichment
+Hero MotoCorp,3,3,5.06,24.95,36.1,8.83,24.1,28.1,Complete EV/PB enrichment
+JB Chemicals and Pharmaceuticals,4,4,6.7,23.53,38.05,7.0,22.15,23.7,Complete EV/PB enrichment
+NALCO,4,4,2.2,8.38,12.9,2.55,21.3,23.05,Complete EV/PB enrichment
+Polycab India,4,4,2.71,28.79,40.1,7.56,17.5,23.1,Complete EV/PB enrichment
+SJS Enterprises,4,4,2.49,20.03,42.9,7.64,14.8,15.75,Complete EV/PB enrichment
+Sharda Cropchem,4,4,2.07,14.16,24.75,2.84,15.0,19.2,Complete EV/PB enrichment
+Shilchar Technologies,4,2,7.52,43.08,59.95,7.32,20.7,26.85,Partial: missing EV/Sales or EV/EBITDA in some peers
+Time Technoplast,4,4,2.37,14.62,24.45,3.19,16.55,20.5,Complete EV/PB enrichment
+Triveni Turbine,4,3,11.04,60.02,82.45,14.6,17.95,23.05,Partial: missing EV/Sales or EV/EBITDA in some peers
