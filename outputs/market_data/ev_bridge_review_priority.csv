@@ -1,0 +1,13 @@
+company,ticker,market_cap_inr_cr,yahoo_ev_inr_cr,implied_yahoo_net_debt_inr_cr,ev_bridge_review_priority,recommended_action
+Hero MotoCorp,HEROMOTOCO.NS,102245.87,92076.49,-10169.38,High,Recalculate EV using annual-report cash/investments and debt; do not rely blindly on Yahoo EV
+Fiem Industries,FIEMIND.NS,5728.47,5534.64,-193.83,Low,"Yahoo EV acceptable for draft comparison, still verify"
+Triveni Turbine,TRITURBINE.NS,18240.81,17312.52,-928.29,Medium,Review EV bridge if material to model
+NALCO,NATIONALUM.NS,72611.24,65445.97,-7165.27,High,Recalculate EV using annual-report cash/investments and debt; do not rely blindly on Yahoo EV
+Sharda Cropchem,SHARDACROP.NS,9680.66,8897.61,-783.05,Medium,Review EV bridge if material to model
+Time Technoplast,TIMETECHNO.NS,9588.87,9328.2,-260.67,Medium,Review EV bridge if material to model
+Bharat Electronics,BEL.NS,315636.24,307267.71,-8368.53,High,Recalculate EV using annual-report cash/investments and debt; do not rely blindly on Yahoo EV
+Polycab India,POLYCAB.NS,121772.78,119304.67,-2468.11,High,Recalculate EV using annual-report cash/investments and debt; do not rely blindly on Yahoo EV
+SJS Enterprises,SJS.NS,5805.5,5615.33,-190.17,Low,"Yahoo EV acceptable for draft comparison, still verify"
+Shilchar Technologies,SHILCTECH.NS,5917.21,5730.65,-186.56,Low,"Yahoo EV acceptable for draft comparison, still verify"
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,32911.32,31463.26,-1448.06,High,Recalculate EV using annual-report cash/investments and debt; do not rely blindly on Yahoo EV
+Gravita India,GRAVITA.NS,11849.84,11466.44,-383.4,Medium,Review EV bridge if material to model
