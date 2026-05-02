@@ -10,6 +10,10 @@ mapping:
 
 Usage:
     python scripts/run_ssrn_next_steps_pipeline.py
+
+Automation note:
+    This file is included in the GitHub Actions path trigger for the SSRN
+    Next Steps Pipeline workflow.
 """
 
 from __future__ import annotations
