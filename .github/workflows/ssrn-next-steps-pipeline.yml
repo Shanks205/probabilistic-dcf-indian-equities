@@ -1,0 +1,51 @@
+name: SSRN Next Steps Pipeline
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/refresh_market_data.py"
+      - "scripts/build_peer_multiple_template_expanded.py"
+      - "scripts/generate_cross_company_charts.py"
+      - "scripts/run_ssrn_next_steps_pipeline.py"
+      - "outputs/consolidated/cross_company_valuation_summary.csv"
+      - "requirements.txt"
+      - ".github/workflows/ssrn-next-steps-pipeline.yml"
+
+jobs:
+  run-next-steps:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run SSRN next steps pipeline
+        run: |
+          python scripts/run_ssrn_next_steps_pipeline.py
+
+      - name: Show pipeline status
+        run: |
+          cat outputs/research_tracker/ssrn_next_steps_pipeline_status.md || true
+
+      - name: Upload SSRN next-step artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ssrn-next-steps-outputs
+          path: |
+            outputs/market_data/final_market_data_refresh_filled.csv
+            outputs/market_data/market_data_refresh_status.md
+            outputs/peer_tables/peer_multiple_refresh_expanded_template.csv
+            outputs/charts/*.png
+            outputs/research_tracker/ssrn_next_steps_pipeline_status.md
+          if-no-files-found: warn
