@@ -1,13 +1,13 @@
 company,annual_report_mapping,market_data_refresh,peer_table_refresh,chart_output,academic_rewrite,ssrn_ready_status,next_action
-Hero MotoCorp,Partial,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Fiem Industries,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Triveni Turbine,Partial,Pending,Pending,Pending,Pending,Not ready,Complete note-level cash debt capex and working-capital mapping; then refresh market data
-NALCO,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Sharda Cropchem,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Time Technoplast,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Bharat Electronics,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Polycab India,Substantially mapped,Pending,Pending,Pending,Pending,Not ready,Finalize net-cash bridge definition; then refresh market data
-SJS Enterprises,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-Shilchar Technologies,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
-JB Chemicals and Pharmaceuticals,Substantially mapped,Pending,Pending,Pending,Pending,Not ready,Recalculate annual-report cash investments minus borrowings bridge; then refresh market data
-Gravita India,Initialized,Pending,Pending,Pending,Pending,Not ready,Add exact annual-report page numbers and refresh market data
+Hero MotoCorp,Substantially mapped; final balance-sheet note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock exact cash investments borrowings and share-capital note pages; then rerun final valuation charts
+Fiem Industries,Substantially mapped; final balance-sheet note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock cash debt capex and share-count notes; then populate peer multiples
+Triveni Turbine,Substantially mapped; final cash/debt/capex note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock note-level cash debt capex and working-capital lines
+NALCO,Uploaded and pending detailed extraction,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Complete targeted financial-statement extraction for P&L cash investments debt and share capital
+Sharda Cropchem,Substantially mapped; final statement note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock consolidated P&L cash/debt/capex and share-capital note pages
+Time Technoplast,Substantially mapped; final balance-sheet note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock cash debt capex and share-count notes
+Bharat Electronics,Substantially mapped; final cash/investment note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Recalculate manual EV after cash/investment note lock
+Polycab India,Substantially mapped; final net-cash definition pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Finalize net-cash bridge definition versus acceptances/cash-credit treatment
+SJS Enterprises,Substantially mapped; final P&L/cash-flow note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock detailed consolidated P&L capex cash debt and share capital notes
+Shilchar Technologies,Substantially mapped; final financial-statement note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock exact cash debt share capital and capex notes; normalize beta for WACC
+JB Chemicals and Pharmaceuticals,Substantially mapped; annual-report net cash bridge pending final model update,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Recalculate manual EV using cash current investments and borrowings
+Gravita India,Substantially mapped; final balance-sheet note lock pending,First pass complete,Template ready; numerical peer data pending,Draft charts generated,Pending,Not ready,Lock cash debt and share capital notes after QIP impact; then finalize EV bridge
