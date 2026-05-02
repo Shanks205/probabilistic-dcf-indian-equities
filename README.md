@@ -10,7 +10,23 @@ Traditional DCF valuation often produces one intrinsic value estimate based on f
 
 ```text
 12 / 12 companies completed at Level 2 Final Draft
-SSRN paper construction started
+All FY2024-25 annual reports uploaded and reviewed
+Page-level annual-report mapping first final pass complete
+Market-data first pass complete
+Peer EV/PB enrichment complete with manual gap-fill notes
+Enterprise-value bridge methodology complete
+Final SSRN manuscript v2 created
+Draft SSRN PDF packet created locally for review
+Official SSRN-ready tag: Not yet; final proofing and final chart rerun still pending
+```
+
+## Latest Manuscript Files
+
+```text
+paper/final_ssrn_manuscript_v2.md
+paper/ev_bridge_methodology_note.md
+paper/source_maps/final_audit_grade_note_lock_v1.md
+outputs/research_tracker/final_ssrn_packet_status.md
 ```
 
 ## Objective
@@ -58,24 +74,18 @@ The project is not a stock recommendation system. The selected companies are use
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   ├── company_master.csv
-│   └── monte_carlo_distribution_template.csv
 ├── docs/
-│   ├── sample_selection_protocol.md
-│   └── valuation_methodology.md
 ├── src/
-│   ├── dcf_model.py
-│   └── monte_carlo_engine.py
 ├── scripts/
-│   └── run_hero_motocorp_demo.py
 ├── outputs/
+│   ├── charts/
+│   ├── market_data/
+│   ├── peer_tables/
 │   └── research_tracker/
-│       ├── company_completion_tracker.csv
-│       └── project_phase_status.md
 ├── paper/
-│   ├── abstract.md
-│   ├── working_paper_draft.md
-│   └── methodology_appendix.md
+│   ├── final_ssrn_manuscript_v2.md
+│   ├── ev_bridge_methodology_note.md
+│   └── source_maps/
 └── companies/
     ├── hero_motocorp/
     ├── fiem_industries/
@@ -91,22 +101,25 @@ The project is not a stock recommendation system. The selected companies are use
     └── gravita_india/
 ```
 
-## Company-Level File Standard
-
-Each Level 2 company folder is designed to include:
+## Key Verification Layers
 
 ```text
-company_readme.md
-final_level2_inputs.csv
-wacc_working.csv
-dcf_output_summary.csv
-monte_carlo_summary.csv
-risk_matrix.md
-sensitivity_summary.csv
-peer_framework.md
-peer_multiples_template.csv
-final_level2_analysis.md
-research_completion_audit.md
+Annual-report mapping:
+paper/source_maps/page_level_mapping_master_template.csv
+paper/source_maps/all_companies_page_mapping_completion_notes.md
+paper/source_maps/final_audit_grade_note_lock_v1.md
+
+Market data and WACC:
+outputs/market_data/final_market_data_refresh_filled.csv
+outputs/market_data/normalized_beta_wacc_review.csv
+outputs/market_data/risk_free_rate_lock.md
+outputs/market_data/manual_ev_bridge_recalculated_v1.csv
+
+Peer valuation:
+outputs/peer_tables/peer_multiple_refresh_ev_pb_enriched.csv
+outputs/peer_tables/peer_multiple_ev_pb_summary_by_company.csv
+outputs/peer_tables/peer_ev_pb_manual_gap_fill.csv
+outputs/peer_tables/peer_ev_pb_enrichment_final_review.md
 ```
 
 ## Workflow
@@ -122,7 +135,11 @@ Sample selection
 → Peer framework
 → Company-level final analysis
 → Completion audit
-→ Consolidated SSRN working paper draft
+→ Annual-report citation mapping
+→ Market-data refresh
+→ Peer EV/PB enrichment
+→ Final SSRN manuscript v2
+→ Draft SSRN PDF packet
 ```
 
 ## Interpretation Principle
@@ -141,26 +158,15 @@ Valuation-expectation risk
 
 A company can be operationally strong and still trade above conservative cash-flow-supported valuation ranges if the market price already discounts optimistic growth, margin, risk, or terminal-value assumptions.
 
-## SSRN Development Status
+## Finalization Notes
 
-The SSRN phase has started with:
+The project is close to SSRN-ready but should not yet be labelled as finally uploaded or officially publication-ready. Remaining quality-control items are:
 
-```text
-paper/abstract.md
-paper/working_paper_draft.md
-paper/methodology_appendix.md
-```
-
-Before SSRN upload, the project still requires:
-
-1. annual-report page-level citation reconciliation,
-2. refreshed market data using one consistent date,
-3. populated peer multiple tables,
-4. chart generation,
-5. formal literature review,
-6. final academic editing,
-7. compliance-style disclaimer review.
+1. decide whether to accept current note-lock caveats or perform one more extraction pass for NALCO and BEL cash/investment notes,
+2. rerun final charts after final EV/WACC assumptions are accepted,
+3. add formal references/citations section if needed for SSRN formatting,
+4. final PDF proofread and disclaimer review.
 
 ## Disclaimer
 
-This repository is for education, research practice, and portfolio demonstration only. It does not provide investment advice, financial advice, or buy/sell recommendations. All valuation outputs depend on assumptions and must be independently verified before real investment use.
+This repository is for education, research practice, and portfolio demonstration only. It does not provide investment advice, financial advice, valuation advice, or buy/sell recommendations. All valuation outputs depend on assumptions and must be independently verified before real investment use.
