@@ -4,9 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - "scripts/fetch_screener_peer_multiples.py"
       - "scripts/enrich_peer_multiples_with_yahoo_ev_pb.py"
+      - "data/peer_sources/screener_peer_universe.csv"
       - "data/peer_sources/peer_yahoo_ticker_map.csv"
-      - "outputs/peer_tables/peer_multiple_refresh_screener_filled.csv"
       - "requirements.txt"
       - ".github/workflows/peer-ev-pb-enrichment.yml"
 
@@ -28,6 +29,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Fetch Screener peer multiples first
+        run: |
+          python scripts/fetch_screener_peer_multiples.py
+
       - name: Enrich peer multiples with Yahoo EV and PB
         run: |
           python scripts/enrich_peer_multiples_with_yahoo_ev_pb.py
@@ -41,6 +46,8 @@ jobs:
         with:
           name: peer-ev-pb-enriched-outputs
           path: |
+            outputs/peer_tables/peer_multiple_refresh_screener_filled.csv
+            outputs/peer_tables/peer_multiple_screener_fetch_status.md
             outputs/peer_tables/peer_multiple_refresh_ev_pb_enriched.csv
             outputs/peer_tables/peer_multiple_ev_pb_enrichment_status.md
           if-no-files-found: warn
