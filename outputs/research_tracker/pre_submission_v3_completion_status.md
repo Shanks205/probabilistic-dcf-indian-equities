@@ -2,24 +2,27 @@
 
 ## Completed in this pass
 
-The requested finalization pass has been completed to the extent possible with the verified data currently available.
+The requested finalization pass has been completed with the verified data currently available.
 
 ## 1. Final audit-grade balance-sheet note lock
 
-Created:
+Created / updated:
 
 ```text
 paper/source_maps/final_audit_grade_note_lock_v1.md
+paper/source_maps/nalco_bel_cash_investment_note_lock_final.md
 ```
 
 Status:
 
 ```text
 Hero MotoCorp: substantially locked for cash-flow and investment-note evidence
-NALCO: debt lock complete; cash/investment numeric extraction remains the only caveat
-Bharat Electronics: debt/share-capital/capex lock complete; cash/investment numeric extraction remains the only caveat
+NALCO: cash/investment/debt note lock complete
+Bharat Electronics: cash/investment/debt/share-capital/capex note lock complete
 Gravita India: cash/debt/equity/capital-management evidence substantially locked
 ```
+
+NALCO and Bharat Electronics were the final two open cash/investment note gaps. Both have now been numerically locked.
 
 ## 2. Final charts
 
@@ -41,7 +44,7 @@ Created:
 paper/final_ssrn_manuscript_v3_pre_submission.md
 ```
 
-The manuscript now includes a formal `References and Data Sources` section covering:
+The manuscript includes a formal `References and Data Sources` section covering:
 
 ```text
 FY2024-25 annual reports
@@ -70,19 +73,17 @@ Manuscript v3: Complete
 References/data-source section: Complete
 Peer EV/PB layer: Complete with manual gap-fill notes
 EV bridge methodology: Complete
-Highest-priority note lock: Substantially complete
+Highest-priority note lock: Complete for NALCO and BEL cash/investment gap
 Charts: Existing pre-submission exhibits retained
-Final SSRN-ready status: Pre-submission ready with caveats
+Final SSRN-ready status: Ready for final packet generation / final PDF proofread
 ```
 
 ## Remaining Choice Before Upload
 
-The only decision left is whether to accept the transparent caveat for NALCO and BEL cash/investment note extraction or perform one more manual extraction pass specifically for those two companies.
-
-If accepted, the next step is:
+The prior NALCO/BEL cash-investment caveat has been resolved. The next step is:
 
 ```text
-Create final SSRN PDF/submission packet from paper/final_ssrn_manuscript_v3_pre_submission.md
+Create final SSRN PDF/submission packet from paper/final_ssrn_manuscript_v3_pre_submission.md, then perform one final visual proofread before upload.
 ```
 
 ## Research Boundary
