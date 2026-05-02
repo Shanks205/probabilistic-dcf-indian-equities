@@ -1,0 +1,48 @@
+company,company_ticker,peer_bucket,peer_company,peer_ticker,screener_url,notes
+Hero MotoCorp,HEROMOTOCO.NS,Two-wheeler / auto OEM,Bajaj Auto,BAJAJ-AUTO,https://www.screener.in/company/BAJAJ-AUTO/consolidated/,Core listed two-wheeler peer
+Hero MotoCorp,HEROMOTOCO.NS,Two-wheeler / auto OEM,TVS Motor,TVSMOTOR,https://www.screener.in/company/TVSMOTOR/consolidated/,Core listed two-wheeler peer
+Hero MotoCorp,HEROMOTOCO.NS,Two-wheeler / auto OEM,Eicher Motors,EICHERMOT,https://www.screener.in/company/EICHERMOT/consolidated/,Premium two-wheeler and CV peer
+Fiem Industries,FIEMIND.NS,Auto components / lighting,Lumax Industries,LUMAXIND,https://www.screener.in/company/LUMAXIND/consolidated/,Auto lighting peer
+Fiem Industries,FIEMIND.NS,Auto components / lighting,Uno Minda,UNOMINDA,https://www.screener.in/company/UNOMINDA/consolidated/,Auto components peer
+Fiem Industries,FIEMIND.NS,Auto components / lighting,Minda Corporation,MINDACORP,https://www.screener.in/company/MINDACORP/consolidated/,Auto components peer
+Fiem Industries,FIEMIND.NS,Auto components / lighting,Pricol,PRICOLLTD,https://www.screener.in/company/PRICOLLTD/consolidated/,Automotive components peer
+Triveni Turbine,TRITURBINE.NS,Capital goods / turbines,Thermax,THERMAX,https://www.screener.in/company/THERMAX/consolidated/,Capital goods peer
+Triveni Turbine,TRITURBINE.NS,Capital goods / turbines,TD Power Systems,TDPOWERSYS,https://www.screener.in/company/TDPOWERSYS/consolidated/,Generator/electrical machinery peer
+Triveni Turbine,TRITURBINE.NS,Capital goods / turbines,Siemens India,SIEMENS,https://www.screener.in/company/SIEMENS/consolidated/,Large electrical capital goods peer
+Triveni Turbine,TRITURBINE.NS,Capital goods / turbines,ABB India,ABB,https://www.screener.in/company/ABB/consolidated/,Large electrical capital goods peer
+NALCO,NATIONALUM.NS,Aluminium / commodity metals,Hindalco,HINDALCO,https://www.screener.in/company/HINDALCO/consolidated/,Aluminium peer
+NALCO,NATIONALUM.NS,Aluminium / commodity metals,Vedanta,VEDL,https://www.screener.in/company/VEDL/consolidated/,Diversified metals peer
+NALCO,NATIONALUM.NS,Aluminium / commodity metals,Hindustan Zinc,HINDZINC,https://www.screener.in/company/HINDZINC/consolidated/,Non-ferrous metals peer
+NALCO,NATIONALUM.NS,Aluminium / commodity metals,NMDC,NMDC,https://www.screener.in/company/NMDC/consolidated/,Metals/mining PSU peer
+Sharda Cropchem,SHARDACROP.NS,Agrochemicals / asset-light registrations,PI Industries,PIIND,https://www.screener.in/company/PIIND/consolidated/,Agrochemical peer
+Sharda Cropchem,SHARDACROP.NS,Agrochemicals / asset-light registrations,Dhanuka Agritech,DHANUKA,https://www.screener.in/company/DHANUKA/consolidated/,Agrochemical peer
+Sharda Cropchem,SHARDACROP.NS,Agrochemicals / asset-light registrations,Rallis India,RALLIS,https://www.screener.in/company/RALLIS/consolidated/,Agrochemical peer
+Sharda Cropchem,SHARDACROP.NS,Agrochemicals / asset-light registrations,Bharat Rasayan,BHARATRAS,https://www.screener.in/company/BHARATRAS/consolidated/,Agrochemical peer
+Time Technoplast,TIMETECHNO.NS,Industrial packaging / polymers,Mold-Tek Packaging,MOLDTKPAC,https://www.screener.in/company/MOLDTKPAC/consolidated/,Packaging peer
+Time Technoplast,TIMETECHNO.NS,Industrial packaging / polymers,Supreme Industries,SUPREMEIND,https://www.screener.in/company/SUPREMEIND/consolidated/,Plastics peer
+Time Technoplast,TIMETECHNO.NS,Industrial packaging / polymers,Nilkamal,NILKAMAL,https://www.screener.in/company/NILKAMAL/consolidated/,Plastics peer
+Time Technoplast,TIMETECHNO.NS,Industrial packaging / polymers,TPL Plastech,TPLPLASTEH,https://www.screener.in/company/TPLPLASTEH/consolidated/,Industrial packaging peer
+Bharat Electronics,BEL.NS,Defence electronics / PSU defence,Hindustan Aeronautics,HAL,https://www.screener.in/company/HAL/consolidated/,Defence PSU peer
+Bharat Electronics,BEL.NS,Defence electronics / PSU defence,Bharat Dynamics,BDL,https://www.screener.in/company/BDL/consolidated/,Defence PSU peer
+Bharat Electronics,BEL.NS,Defence electronics / PSU defence,Data Patterns,DATAPATTNS,https://www.screener.in/company/DATAPATTNS/consolidated/,Defence electronics peer
+Bharat Electronics,BEL.NS,Defence electronics / PSU defence,Astra Microwave,ASTRAMICRO,https://www.screener.in/company/ASTRAMICRO/consolidated/,Defence electronics peer
+Polycab India,POLYCAB.NS,Cables and electricals,KEI Industries,KEI,https://www.screener.in/company/KEI/consolidated/,Cable peer
+Polycab India,POLYCAB.NS,Cables and electricals,RR Kabel,RRKABEL,https://www.screener.in/company/RRKABEL/consolidated/,Cable peer
+Polycab India,POLYCAB.NS,Cables and electricals,Finolex Cables,FINCABLES,https://www.screener.in/company/FINCABLES/consolidated/,Cable peer
+Polycab India,POLYCAB.NS,Cables and electricals,Havells India,HAVELLS,https://www.screener.in/company/HAVELLS/consolidated/,Electricals peer
+SJS Enterprises,SJS.NS,Auto ancillary / decorative aesthetics,Uno Minda,UNOMINDA,https://www.screener.in/company/UNOMINDA/consolidated/,Auto components peer
+SJS Enterprises,SJS.NS,Auto ancillary / decorative aesthetics,Minda Corporation,MINDACORP,https://www.screener.in/company/MINDACORP/consolidated/,Auto components peer
+SJS Enterprises,SJS.NS,Auto ancillary / decorative aesthetics,Lumax Auto Technologies,LUMAXTECH,https://www.screener.in/company/LUMAXTECH/consolidated/,Auto ancillary peer
+SJS Enterprises,SJS.NS,Auto ancillary / decorative aesthetics,Suprajit Engineering,SUPRAJIT,https://www.screener.in/company/SUPRAJIT/consolidated/,Auto ancillary peer
+Shilchar Technologies,SHILCTECH.NS,Transformers / electrical capital goods,Transformers and Rectifiers,TARIL,https://www.screener.in/company/TARIL/consolidated/,Transformer peer
+Shilchar Technologies,SHILCTECH.NS,Transformers / electrical capital goods,Voltamp Transformers,VOLTAMP,https://www.screener.in/company/VOLTAMP/consolidated/,Transformer peer
+Shilchar Technologies,SHILCTECH.NS,Transformers / electrical capital goods,Bharat Bijlee,BBL,https://www.screener.in/company/BBL/consolidated/,Electrical equipment peer
+Shilchar Technologies,SHILCTECH.NS,Transformers / electrical capital goods,TD Power Systems,TDPOWERSYS,https://www.screener.in/company/TDPOWERSYS/consolidated/,Electrical machinery peer
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,Branded formulations / pharma,Torrent Pharma,TORNTPHARM,https://www.screener.in/company/TORNTPHARM/consolidated/,Branded pharma peer
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,Branded formulations / pharma,Alkem Laboratories,ALKEM,https://www.screener.in/company/ALKEM/consolidated/,Branded pharma peer
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,Branded formulations / pharma,Ajanta Pharma,AJANTPHARM,https://www.screener.in/company/AJANTPHARM/consolidated/,Branded pharma peer
+JB Chemicals and Pharmaceuticals,JBCHEPHARM.NS,Branded formulations / pharma,Eris Lifesciences,ERIS,https://www.screener.in/company/ERIS/consolidated/,Branded pharma peer
+Gravita India,GRAVITA.NS,Recycling / non-ferrous metals,Pondy Oxides,POCL,https://www.screener.in/company/POCL/consolidated/,Recycling/non-ferrous peer
+Gravita India,GRAVITA.NS,Recycling / non-ferrous metals,Hindalco,HINDALCO,https://www.screener.in/company/HINDALCO/consolidated/,Non-ferrous peer
+Gravita India,GRAVITA.NS,Recycling / non-ferrous metals,Vedanta,VEDL,https://www.screener.in/company/VEDL/consolidated/,Diversified metals peer
+Gravita India,GRAVITA.NS,Recycling / non-ferrous metals,Hindustan Zinc,HINDZINC,https://www.screener.in/company/HINDZINC/consolidated/,Non-ferrous metals peer
